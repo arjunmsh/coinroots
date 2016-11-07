@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[coinroots.serverenyml]
+[peatio.serverenyml]
 file_filter = config/locales/server.<lang>.yml
 source_file = config/locales/server.en.yml
 source_lang = en
@@ -9,7 +9,7 @@ trans.zh_CN = config/locales/server.zh-CN.yml
 trans.zh_TW = config/locales/server.zh-TW.yml
 type = YML
 
-[coinroots.clientenyml]
+[peatio.clientenyml]
 file_filter = config/locales/client.<lang>.yml
 source_file = config/locales/client.en.yml
 source_lang = en

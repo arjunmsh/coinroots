@@ -3,8 +3,8 @@
 We just use docker deploy and we don't ensure this `Dockerfile` working for your environment.
 
 ```
-cd coinroots/doc/docker
-docker build -t coinroots/base .
+cd peatio/doc/docker
+docker build -t peatio/base .
 ./bin/base.sh
 ./bin/webapp.sh
 ```
@@ -12,7 +12,7 @@ docker build -t coinroots/base .
 Operating Systems
 -----------------
 
-Coinroots is developed for Mac and Linux operating system, Ubuntu 14.04 LTS is recommended.
+Peatio is developed for Mac and Linux operating system, Ubuntu 14.04 LTS is recommended.
 
 ## Officially supports
 
@@ -21,7 +21,7 @@ Coinroots is developed for Mac and Linux operating system, Ubuntu 14.04 LTS is r
 
 ## Ruby versions
 
-Coinroots requires Ruby (MRI) 2.1.0+. You will have to use the standard MRI implementation of Ruby.
+Peatio requires Ruby (MRI) 2.1.0+. You will have to use the standard MRI implementation of Ruby.
 
 ## Hardware requirements
 
@@ -49,10 +49,10 @@ If you run bitcoind at local, the necessary hard drive space largely depends on 
 
 ## Development Dependencies
 
-* [RabbitMQ](https://www.rabbitmq.com/) is Coinroots's backbone, it's the message broker doing all the message exchanges between daemons.
-* Coinroots use [Phantomjs](http://phantomjs.org/) to test JavaScript.
+* [RabbitMQ](https://www.rabbitmq.com/) is Peatio's backbone, it's the message broker doing all the message exchanges between daemons.
+* Peatio use [Phantomjs](http://phantomjs.org/) to test JavaScript.
 * PhantomJS
 
 ## Support
 
-Any Questions: [community@coinroots.com](mailto:community@coinroots.com)
+Any Questions: [community@peatio.com](mailto:community@peatio.com)

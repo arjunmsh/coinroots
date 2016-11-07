@@ -1,8 +1,8 @@
-class WithdrawChannel extends CoinrootsModel.Model
+class WithdrawChannel extends PeatioModel.Model
   @configure 'WithdrawChannel', 'key', 'currency', 'resource_name'
 
   @initData: (records) ->
-    CoinrootsModel.Ajax.disable ->
+    PeatioModel.Ajax.disable ->
       $.each records, (idx, record) ->
         WithdrawChannel.create(record)
 

@@ -12,7 +12,7 @@ Deploy production server on Ubuntu 14.04
 7. Install [Nginx with Passenger](https://www.phusionpassenger.com/)
 8. Install JavaScript Runtime
 9. Install ImageMagick
-10. Configure Coinroots
+10. Configure Peatio
 
 ### 1. Setup deploy user
 
@@ -113,7 +113,7 @@ Insert the following lines into the bitcoin.conf, and replce with your username 
     rpcport=18332
 
     # Notify when receiving coins
-    walletnotify=/usr/local/sbin/rabbitmqadmin publish routing_key=coinroots.deposit.coin payload='{"txid":"%s", "channel_key":"satoshi"}'
+    walletnotify=/usr/local/sbin/rabbitmqadmin publish routing_key=peatio.deposit.coin payload='{"txid":"%s", "channel_key":"satoshi"}'
 
 **Start bitcoin**
 
@@ -171,14 +171,14 @@ A JavaScript Runtime is needed for Asset Pipeline to work. Any runtime will do b
 
 ##### Clone the Source
 
-    mkdir -p ~/coinroots
-    git clone git://github.com/coinroots/coinroots.git ~/coinroots/current
-    cd coinroots/current
+    mkdir -p ~/peatio
+    git clone git://github.com/peatio/peatio.git ~/peatio/current
+    cd peatio/current
 
     ＃ Install dependency gems
     bundle install --without development test --path vendor/bundle
 
-##### Configure Coinroots
+##### Configure Peatio
 
 **Prepare configure files**
 
@@ -186,7 +186,7 @@ A JavaScript Runtime is needed for Asset Pipeline to work. Any runtime will do b
 
 **Setup Pusher**
 
-* Coinroots depends on [Pusher](http://pusher.com). A development key/secret pair for development/test is provided in `config/application.yml` (uncomment to use). PLEASE USE IT IN DEVELOPMENT/TEST ENVIRONMENT ONLY!
+* Peatio depends on [Pusher](http://pusher.com). A development key/secret pair for development/test is provided in `config/application.yml` (uncomment to use). PLEASE USE IT IN DEVELOPMENT/TEST ENVIRONMENT ONLY!
 
 More details to visit [pusher official website](http://pusher.com)
 
@@ -228,7 +228,7 @@ More details to visit [pusher official website](http://pusher.com)
     # You can do the same when you start all daemons:
     TRADE_EXECUTOR=4 rake daemons:start
 
-When daemons don't work, check `log/#{daemon name}.rb.output` or `log/coinroots:amqp:#{daemon name}.output` for more information (suffix is '.output', not '.log').
+When daemons don't work, check `log/#{daemon name}.rb.output` or `log/peatio:amqp:#{daemon name}.output` for more information (suffix is '.output', not '.log').
 
 **SSL Certificate setting**
 
@@ -239,7 +239,7 @@ For security reason, you must setup SSL Certificate for production environment, 
 **Passenger:**
 
     sudo rm /etc/nginx/sites-enabled/default
-    sudo ln -s /home/deploy/coinroots/current/config/nginx.conf /etc/nginx/conf.d/coinroots.conf
+    sudo ln -s /home/deploy/peatio/current/config/nginx.conf /etc/nginx/conf.d/peatio.conf
     sudo service nginx restart
 
 **Liability Proof**

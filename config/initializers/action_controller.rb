@@ -1,4 +1,4 @@
-# ActionController::Base are used by both Coinroots controllers and
+# ActionController::Base are used by both Peatio controllers and
 # Doorkeeper controllers.
 class ActionController::Base
 

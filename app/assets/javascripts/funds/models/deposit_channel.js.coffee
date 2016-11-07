@@ -1,8 +1,8 @@
-class DepositChannel extends CoinrootsModel.Model
+class DepositChannel extends PeatioModel.Model
   @configure 'DepositChannel', 'key', 'currency', 'min_confirm', 'max_confirm', 'bank_accounts', 'resource_name'
 
   @initData: (records) ->
-    CoinrootsModel.Ajax.disable ->
+    PeatioModel.Ajax.disable ->
       $.each records, (idx, record) ->
         DepositChannel.create(record)
 

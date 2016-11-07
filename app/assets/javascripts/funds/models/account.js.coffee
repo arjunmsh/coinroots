@@ -1,8 +1,8 @@
-class Account extends CoinrootsModel.Model
+class Account extends PeatioModel.Model
   @configure 'Account', 'member_id', 'currency', 'balance', 'locked', 'created_at', 'updated_at', 'in', 'out', 'deposit_address', 'name_text'
 
   @initData: (records) ->
-    CoinrootsModel.Ajax.disable ->
+    PeatioModel.Ajax.disable ->
       $.each records, (idx, record) ->
         Account.create(record)
 
