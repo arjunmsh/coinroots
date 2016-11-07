@@ -4,46 +4,46 @@ connect:
 
 exchange:
   trade:
-    name: coinroots.trade
+    name: peatio.trade
     type: headers
   notification:
-    name: coinroots.notification
+    name: peatio.notification
     type: direct
   orderbook:
-    name: coinroots.orderbook
+    name: peatio.orderbook
     type: fanout
 
 queue:
   matching:
-    name: coinroots.matching
+    name: peatio.matching
     durable: true
   slave_book:
-    name: coinroots.orderbook.slave
+    name: peatio.orderbook.slave
     durable: true
   new_trade:
-    name: coinroots.trade.new
+    name: peatio.trade.new
     durable: true
   order_processor:
-    name: coinroots.order.processor
+    name: peatio.order.processor
     durable: true
   market_ticker:
-    name: coinroots.trade.market_ticker
+    name: peatio.trade.market_ticker
   pusher_market:
-    name: coinroots.pusher.market
+    name: peatio.pusher.market
   pusher_member:
-    name: coinroots.pusher.member
+    name: peatio.pusher.member
   withdraw_coin:
-    name: coinroots.withdraw.coin
+    name: peatio.withdraw.coin
   deposit_coin:
-    name: coinroots.deposit.coin
+    name: peatio.deposit.coin
   deposit_coin_address:
-    name: coinroots.deposit.coin.address
+    name: peatio.deposit.coin.address
     durable: true
   email:
-    name: coinroots.notification.email
+    name: peatio.notification.email
     durable: true
   sms:
-    name: coinroots.notification.sms
+    name: peatio.notification.sms
     durable: true
 
 binding:

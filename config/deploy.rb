@@ -4,11 +4,11 @@ require 'mina/git'
 require 'mina/rbenv'
 require 'mina/slack/tasks'
 
-set :repository, 'https://github.com/coinroots/coinroots.git'
+set :repository, 'https://github.com/peatio/peatio.git'
 set :user, 'deploy'
-set :deploy_to, '/home/deploy/coinroots'
+set :deploy_to, '/home/deploy/peatio'
 set :branch, 'master'
-set :domain, 'demo.coinroots.com'
+set :domain, 'demo.peatio.com'
 
 set :shared_paths, [
   'config/database.yml',

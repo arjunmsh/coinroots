@@ -6,7 +6,7 @@ class ActionDispatch::Routing::Mapper
   end
 end
 
-Coinroots::Application.routes.draw do
+Peatio::Application.routes.draw do
   use_doorkeeper
 
   root 'welcome#index'

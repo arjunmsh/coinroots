@@ -1,7 +1,7 @@
 development: &defaults
   adapter: mysql2
   encoding: utf8
-  database: coinroots_development
+  database: peatio_development
   username: root
   password: coinroots
   pool: 10
@@ -9,8 +9,8 @@ development: &defaults
 
 test:
   <<: *defaults
-  database: coinroots_test
+  database: peatio_test
 
 production:
   <<: *defaults
-  database: coinroots_production
+  database: peatio_production

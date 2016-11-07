@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.2.1
 before_script:
-  - "mysql -e 'create database coinroots_test;'"
+  - "mysql -e 'create database peatio_test;'"
   - "cp ./.travis.database.yml ./config/database.yml"
   - "cp ./.travis.application.yml ./config/application.yml"
   - "cp ./.travis.currencies.yml ./config/currencies.yml"
@@ -19,4 +19,4 @@ after_failure:
   - "echo $RAILS_ENV"
   - "bundle exec rake --version"
 notifications:
-  slack: coinroots:F2FWrCANEK3QcjHC16OO541l
+  slack: peatio:F2FWrCANEK3QcjHC16OO541l

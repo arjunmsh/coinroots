@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Coinroots::Application.load_tasks
+Peatio::Application.load_tasks

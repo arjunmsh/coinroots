@@ -38,7 +38,7 @@ class EventHandler
 
   processWithoutAjax: =>
     args = arguments
-    CoinrootsModel.Ajax.disable =>
+    PeatioModel.Ajax.disable =>
       @process(args...)
 
   create: (attributes) =>

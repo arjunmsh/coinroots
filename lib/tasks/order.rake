@@ -1,6 +1,6 @@
 namespace :order do
   task mock: :environment do
-    m = Member.find_by_email 'foo@coinroots.dev'
+    m = Member.find_by_email 'foo@peatio.dev'
     market = Market.find 'btccny'
 
     low = 2150
