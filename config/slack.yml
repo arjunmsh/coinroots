@@ -1,0 +1,9 @@
+staging: &defaults
+  payload:
+    channel: '#coinroots'
+    username: minabot
+  token: ~
+  hook_url: https://coinroots.slack.com/services/hooks/incoming-webhook?token=
+
+production:
+  <<: *defaults
