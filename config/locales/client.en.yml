@@ -1,6 +1,6 @@
 en:
   js:
-    brand: CoinRoots
+    brand: Coinroots
     submit: Submit
     cancel: Cancel
     confirm: Confirm
@@ -40,12 +40,12 @@ en:
       deposit: Deposit
       withdraw: Withdraw
       currency_name:
-        inr: INR
+        cny: CNY
         btc: BTC
-	      acn: ACN
-	      opc: OPC
-      deposit_inr:
-        title: Indian Rupee Deposit
+        acn: ACN
+        opc: OPC
+      deposit_cny:
+        title: Indian Rupees Deposit
         desc: "To deposit via Bank transfer, please follow these steps:"
         desc_item_1: "1. Submit the form to get the identification code."
         desc_item_2: "2. Transfer the money to exchange's bank account. Please make sure your referral code was written on the form you fill in."
@@ -58,7 +58,7 @@ en:
         add: Add
         manage: Manage
         amount: Deposit Amount
-        min_amount: At least 10 Rupees
+        min_amount: At least 10 yuan
         to_account: Account
         to_name: Name
         to_bank_name: Bank Name
@@ -69,24 +69,10 @@ en:
         title: BTC Deposit
 
       deposit_acn:
-        address: Address
-        new_address: New Address
-        confirm_gen_new_address: You sure want to generate a new deposit address?
-        open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
-        detail: Please paste the address blow in your wallet and fill in the amount you want to deposit then confirm and send.
-        scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
-        after_deposit: Once you complete sending, you can check the status of your new deposit below.
-        generate-new: Generate new address
+        title: ACN Deposit
 
       deposit_opc:
-        address: Address
-        new_address: New Address
-        confirm_gen_new_address: You sure want to generate a new deposit address?
-        open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
-        detail: Please paste the address blow in your wallet, and fill in the amount you want to deposit, then confirm and send.
-        scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
-        after_deposit: Once you complete sending, you can check the status of your new deposit below.
-        generate-new: Generate new address
+        title: OPC Deposit
 
       deposit_coin:
         address: Address
@@ -120,8 +106,8 @@ en:
         warning: Warning
         suspect: Suspect
 
-      withdraw_inr:
-        title: Chinese Yuan Withdraw
+      withdraw_cny:
+        title: Indian Rupees Withdraw
         intro: Select the bank to cash withdrawal amount and enter the account number and complete submission.
         intro_2: Your bank account and name must be consistent with the real-name authentication name.
         attention: "Working Hours: 9:00 - 18:00"
@@ -137,25 +123,12 @@ en:
       withdraw_btc:
         title: BTC Withdraw
 
-      withdraw_acn:
-        intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
-        label: Label
-        balance: Balance
-        amount: Amount
-        manage_withdraw: Manage Address
-        min: At least
-        withdraw_all: Withdraw all
-        fee_explain: About Fee
-
       withdraw_opc:
-        intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
-        label: Label
-        balance: Balance
-        amount: Amount
-        manage_withdraw: Manage Address
-        min: At least
-        withdraw_all: Withdraw all
-        fee_explain: About Fee
+        title: OPC Withdraw
+
+
+      withdraw_acn:
+        title: OPC Withdraw
 
       withdraw_coin:
         intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
@@ -209,8 +182,7 @@ en:
     markets:
       market_list:
         all: All Market
-        inr: INR Market
+        cny: CNY Market
         btc: BTC Market
-        opc: OPC Market
         acn: ACN Market
-
+        opc: OPC Market
