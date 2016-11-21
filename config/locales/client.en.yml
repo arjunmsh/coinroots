@@ -42,8 +42,8 @@ en:
       currency_name:
         inr: INR
         btc: BTC
-	acn: ACN
-	opc: OPC
+	      acn: ACN
+	      opc: OPC
       deposit_inr:
         title: Indian Rupee Deposit
         desc: "To deposit via Bank transfer, please follow these steps:"
@@ -73,7 +73,7 @@ en:
         new_address: New Address
         confirm_gen_new_address: You sure want to generate a new deposit address?
         open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
-        detail: Please paste the address blow in your wallet, and fill in the amount you want to deposit, then confirm and send.
+        detail: Please paste the address blow in your wallet and fill in the amount you want to deposit then confirm and send.
         scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
         after_deposit: Once you complete sending, you can check the status of your new deposit below.
         generate-new: Generate new address
