@@ -87,7 +87,7 @@ en:
         scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
         after_deposit: Once you complete sending, you can check the status of your new deposit below.
         generate-new: Generate new address
-      
+
       deposit_coin:
         address: Address
         new_address: New Address
