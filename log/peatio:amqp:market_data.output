@@ -1,0 +1,205 @@
+peatio:amqp:market_data: process with pid 11991 started.
+I, [2016-11-19T13:00:19.512613 #11991]  INFO -- : Connected to AMQP broker (prefetch: default)
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `join': Connection-level error: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' (Bunny::ConnectionForced)
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `block in join'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `each'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `join'
+	from /root/coinroots/lib/daemons/amqp_daemon.rb:81:in `<top (required)>'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/market_data_ctl:11:in `<main>'
+peatio:amqp:market_data: process with pid 14514 started.
+I, [2016-11-20T06:12:52.443793 #14514]  INFO -- : Connected to AMQP broker (prefetch: default)
+I, [2016-11-20T06:19:40.029064 #14514]  INFO -- : Received: {"action":"new","market":"btccny","side":"ask","locale":"en"}
+I, [2016-11-20T06:19:40.192166 #14514]  INFO -- : Received: {"action":"new","market":"btccny","side":"bid","locale":"en"}
+D, [2016-11-20T06:19:43.074719 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:19:46.075918 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:19:49.302000 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:19:53.524402 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:19:56.845751 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:20:04.142663 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:20:23.844316 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:20:48.490367 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:20:57.386378 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:21:09.266060 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:21:25.783887 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:21:45.428400 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:21:57.680144 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:22:13.416361 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:22:24.315570 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:22:50.290019 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:01.642376 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:04.716343 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:10.014627 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:24.591069 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:30.176244 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:38.176503 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:45.763453 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:23:58.879742 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:24:05.249573 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:24:24.087044 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:24:30.280888 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:24:46.325000 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:24:56.336958 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:25:03.370727 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:25:24.700641 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:25:33.852646 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:25:58.598232 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:26:09.968133 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:26:24.561783 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:26:35.696778 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:27:04.526012 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:27:10.573321 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:27:39.244847 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:27:55.166838 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:28:05.056613 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:28:09.537959 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:28:14.476047 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:28:27.393551 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:28:37.330948 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:28:57.654447 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:29:10.344911 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:29:30.047428 #14514] DEBUG -- : SlaveBook (btccny) updated
+E, [2016-11-20T06:29:52.913559 #14514] ERROR -- : Failed to cache book: Connection timed out
+E, [2016-11-20T06:29:53.121559 #14514] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:222:in `rescue in io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:220:in `io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:228:in `read'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `block in call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:201:in `block (2 levels) in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:309:in `ensure_connected'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:191:in `block in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:270:in `logging'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:190:in `process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:676:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `block in synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:672:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/interface.rb:9:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/ttl.rb:8:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:29:in `_marshal'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:163:in `write_entry'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:36:in `block in write'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activesupport-4.0.12/lib/active_support/cache.rb:519:in `instrument'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:34:in `write'
+/root/coinroots/app/models/worker/slave_book.rb:42:in `block in cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `each'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:11:in `block (2 levels) in initialize'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `loop'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `block in initialize'
+D, [2016-11-20T06:30:30.919486 #14514] DEBUG -- : SlaveBook (btccny) updated
+E, [2016-11-20T06:30:56.004558 #14514] ERROR -- : Failed to cache book: Connection timed out
+E, [2016-11-20T06:30:56.592846 #14514] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:222:in `rescue in io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:220:in `io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:228:in `read'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `block in call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:201:in `block (2 levels) in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:309:in `ensure_connected'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:191:in `block in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:270:in `logging'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:190:in `process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:676:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `block in synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:672:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/interface.rb:9:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/ttl.rb:8:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:29:in `_marshal'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:163:in `write_entry'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:36:in `block in write'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activesupport-4.0.12/lib/active_support/cache.rb:519:in `instrument'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:34:in `write'
+/root/coinroots/app/models/worker/slave_book.rb:41:in `block in cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `each'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:11:in `block (2 levels) in initialize'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `loop'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `block in initialize'
+D, [2016-11-20T06:31:04.993649 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:31:30.826601 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:31:40.624976 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:31:48.796948 #14514] DEBUG -- : SlaveBook (btccny) updated
+E, [2016-11-20T06:32:16.165678 #14514] ERROR -- : Failed to cache book: Connection timed out
+E, [2016-11-20T06:32:19.168703 #14514] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:222:in `rescue in io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:220:in `io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:228:in `read'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `block in call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:201:in `block (2 levels) in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:309:in `ensure_connected'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:191:in `block in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:270:in `logging'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:190:in `process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:676:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `block in synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:672:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/interface.rb:9:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/ttl.rb:8:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:29:in `_marshal'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:163:in `write_entry'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:36:in `block in write'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activesupport-4.0.12/lib/active_support/cache.rb:519:in `instrument'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:34:in `write'
+/root/coinroots/app/models/worker/slave_book.rb:41:in `block in cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `each'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:11:in `block (2 levels) in initialize'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `loop'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `block in initialize'
+D, [2016-11-20T06:32:34.160007 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:32:45.705972 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:32:54.343696 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:32:58.155617 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:33:06.418309 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:33:17.788223 #14514] DEBUG -- : SlaveBook (btccny) updated
+D, [2016-11-20T06:33:31.509902 #14514] DEBUG -- : SlaveBook (btccny) updated
+E, [2016-11-20T06:33:53.377335 #14514] ERROR -- : Failed to cache book: Connection timed out
+E, [2016-11-20T06:33:56.975317 #14514] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:222:in `rescue in io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:220:in `io'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:228:in `read'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `block in call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:201:in `block (2 levels) in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:309:in `ensure_connected'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:191:in `block in process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:270:in `logging'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:190:in `process'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis/client.rb:96:in `call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:676:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `block in synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:37:in `synchronize'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.0.7/lib/redis.rb:672:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/interface.rb:9:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/ttl.rb:8:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `block in set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:29:in `_marshal'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-store-1.1.4/lib/redis/store/marshalling.rb:5:in `set'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:163:in `write_entry'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:36:in `block in write'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activesupport-4.0.12/lib/active_support/cache.rb:519:in `instrument'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-activesupport-4.0.0/lib/active_support/cache/redis_store.rb:34:in `write'
+/root/coinroots/app/models/worker/slave_book.rb:41:in `block in cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `each'
+/root/coinroots/app/models/worker/slave_book.rb:39:in `cache_book'
+/root/coinroots/app/models/worker/slave_book.rb:11:in `block (2 levels) in initialize'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `loop'
+/root/coinroots/app/models/worker/slave_book.rb:9:in `block in initialize'

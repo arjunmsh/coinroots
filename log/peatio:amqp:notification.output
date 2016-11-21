@@ -1,0 +1,19 @@
+peatio:amqp:notification: process with pid 11979 started.
+I, [2016-11-19T13:00:19.517042 #11979]  INFO -- : Connected to AMQP broker (prefetch: default)
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `join': Connection-level error: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' (Bunny::ConnectionForced)
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `block in join'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `each'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `join'
+	from /root/coinroots/lib/daemons/amqp_daemon.rb:81:in `<top (required)>'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/notification_ctl:11:in `<main>'
+peatio:amqp:notification: process with pid 14504 started.
+I, [2016-11-20T06:12:48.208760 #14504]  INFO -- : Connected to AMQP broker (prefetch: default)
