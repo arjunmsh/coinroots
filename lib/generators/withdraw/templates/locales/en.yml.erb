@@ -2,30 +2,30 @@ en:
   withdraw_channel:
     <%= name.underscore %>:
       key: 块链
-      title: <%= name %> 提现
-      intro: 将你在貔貅的 <%= name %> 余额提取到你的钱包账户
-      latency: 30 分钟到账
+      title: <%= name %> Withdraw
+      intro: Withdraw the balance of <%= name %> to your wallet.
+      latency: 30 minutes
       transfer: 人工处理
-      go: 立即提现
+      go: Manual
 
   activerecord:
     models:
-      withdraws/<%= name.underscore %>: 银行转账
+      withdraws/<%= name.underscore %>: Bank Transfer
     attributes:
       withdraws/<%= name.underscore %>:
-        id: 提现编号
-        member_name: 用户
-        currency_obj_key_text: 币种
-        state_and_action: 状态/操作
-        fund_extra_text: 提现标签
-        fund_extra: 提现标签
-        fund_source: 提现标签/地址
-        fund_uid: 提现地址
-        created_at: 时间
-        sum: 数量
-        amount: 金额
-        remark: 备注
-        fee: 手续费
+        id: Transaction Id
+        member_name: User
+        currency_obj_key_text: Currency
+        state_and_action: State / Action
+        fund_extra_text: Withdraw
+        fund_extra: Withdraw
+        fund_source: Withdraw
+        fund_uid: Refund
+        created_at: Time
+        sum: Quantity
+        amount: Amount
+        remark: Remark
+        fee: Processing Fees
     errors:
       models:
         withdraws/<%= name.underscore %>:
@@ -100,18 +100,18 @@ en:
     hints:
       withdraw:
         <%= name.underscore %>:
-          sum: "<a target='_balance' href='#'>资费说明</a>"
+          sum: "<a target='_balance' href='#'>Fee Description</a>"
 
   guides:
     private:
       withdraws:
         <%= name.underscore.pluralize %>:
-          panel: <%= name %> 提现
+          panel: <%= name %> Withdraw
           new:
-            intro: 选择提现银行并输入帐号和提取金额，完成提交。您提现的银行账户姓名必须和您实名认证的姓名一致。
-            default-panel: 历史记录
+            intro: Select Bank and enter the account number and withdraw the amount to complete the submission. Your bank account name must match your real name.
+            default-panel: History
           create:
-            intro: 选择提现银行并输入帐号和提取金额，完成提交。您提现的银行账户姓名必须和您实名认证的姓名一致。
-            default-panel: 历史记录
+            intro: Select Bank and enter the account number and withdraw the amount to complete the submission. Your bank account name must match your real name.
+            default-panel: History
           edit:
-            intro: 选择提现银行并输入帐号和提取金额，完成提交。您提现的银行账户姓名必须和您实名认证的姓名一致。
+            intro: Select Bank and enter the account number and withdraw the amount to complete the submission. Your bank account name must match your real name.

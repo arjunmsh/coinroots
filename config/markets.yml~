@@ -1,0 +1,30 @@
+- id: btcinr
+  code: 3
+  #name: BTC/INR      # default name
+  base_unit: btc
+  quote_unit: inr
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: inr, fixed: 2}
+  ask: {fee: 0, currency: btc, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: opcinr
+  code: 4
+  name: OPC/INR      # default name
+  base_unit: opc
+  quote_unit: inr
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: inr, fixed: 2}
+  ask: {fee: 0, currency: opc, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: acninr
+  code: 4
+  name: ACN/INR      # default name
+  base_unit: acn
+  quote_unit: inr
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: inr, fixed: 2}
+  ask: {fee: 0, currency: acn, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true

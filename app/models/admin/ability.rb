@@ -18,10 +18,14 @@ module Admin
       can :menu, Deposit
       can :manage, ::Deposits::Bank
       can :manage, ::Deposits::Satoshi
+      can :manage, ::Deposits::Avon
+      can :manage, ::Deposits::Opera
 
       can :menu, Withdraw
       can :manage, ::Withdraws::Bank
       can :manage, ::Withdraws::Satoshi
+      can :manage, ::Withdraws::Avon
+      can :manage, ::Withdraws::Opera
     end
   end
 end
