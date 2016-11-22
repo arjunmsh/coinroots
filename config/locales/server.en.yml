@@ -296,6 +296,8 @@ en:
       doge: DOGE
       pts: PTS
       ltc: LTC
+      acn: ACN
+      opc: OPC
   currency:
     satoshi:
       key: BTC
@@ -310,7 +312,7 @@ en:
     renminbi:
       key: INR
       code: INR
-      name: Chinese Yuan
+      name: Indian Rupee
       format: '0,0.00'
     dogecoin:
       key: DOG
