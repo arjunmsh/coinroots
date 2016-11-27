@@ -17,7 +17,7 @@
   symbol: "฿"
   coin: true
   quick_withdraw_max: 0
-  rpc: http://coinroots:coinbitcoind@127.0.0.1:18332
+  rpc: http://coinrootsbtc:9YGfDb+j*yFJ@127.0.0.1:18332
   blockchain: https://blockchain.info/tx/#{txid}
   address_url: https://blockchain.info/address/#{address}
   assets:
@@ -30,7 +30,7 @@
   symbol: "ACN"
   coin: true
   quick_withdraw_max: 0
-  rpc: http://coinroots:coinavoncoind@127.0.0.1:18332
+  rpc: http://coinrootsacn:xrwanZ&V+2K=@127.0.0.1:18332
   blockchain: https://avoncoin.info/tx/#{txid}
   address_url: https://avoncoin.info/address/#{address}
   assets:
@@ -43,7 +43,7 @@
   symbol: "OPC"
   coin: true
   quick_withdraw_max: 0
-  rpc: http://coinroots:coinoperacoind@127.0.0.1:18332
+  rpc: http://coinrootsopc:a@&Pu5Ey!VMm@127.0.0.1:18332
   blockchain: https://operacoin.info/tx/#{txid}
   address_url: https://operacoin.info/address/#{address}
   assets:

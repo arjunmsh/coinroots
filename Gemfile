@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.0.12'
 gem 'rails-i18n'
 
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.18'
 gem 'daemons-rails'
 gem 'redis-rails'
 
