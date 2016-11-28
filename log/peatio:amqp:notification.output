@@ -17,3 +17,5 @@ I, [2016-11-19T13:00:19.517042 #11979]  INFO -- : Connected to AMQP broker (pref
 	from lib/daemons/notification_ctl:11:in `<main>'
 peatio:amqp:notification: process with pid 14504 started.
 I, [2016-11-20T06:12:48.208760 #14504]  INFO -- : Connected to AMQP broker (prefetch: default)
+peatio:amqp:notification: process with pid 17376 started.
+I, [2016-11-27T17:08:45.097271 #17376]  INFO -- : Connected to AMQP broker (prefetch: default)

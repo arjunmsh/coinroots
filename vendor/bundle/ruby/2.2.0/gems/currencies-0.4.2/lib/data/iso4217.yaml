@@ -151,8 +151,8 @@ CLP:
   name: Pesos
   symbol: $
   unicode_hex: 36
-CNY: 
-  code: CNY
+INR: 
+  code: INR
   name: "Yuan Renminbi"
   symbol: ¥
   unicode_hex: 165

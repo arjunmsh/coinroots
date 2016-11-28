@@ -4,3 +4,15 @@ D, [2016-11-20T06:19:40.021797 #14573] DEBUG -- : orderbook broadcast: {:action=
 D, [2016-11-20T06:19:40.027779 #14573] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"btccny", :side=>:bid}
 I, [2016-11-20T06:19:41.637624 #14573]  INFO -- : btccny engine already started. mode=run
 I, [2016-11-20T06:19:41.637681 #14573]  INFO -- : All engines reloaded.
+peatio:amqp:matching: process with pid 17456 started.
+I, [2016-11-27T17:08:48.689150 #17456]  INFO -- : Connected to AMQP broker (prefetch: default)
+D, [2016-11-27T17:08:48.689417 #17456] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"btcinr", :side=>:ask}
+D, [2016-11-27T17:08:48.748504 #17456] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"btcinr", :side=>:bid}
+I, [2016-11-27T17:08:48.757814 #17456]  INFO -- : btcinr engine already started. mode=run
+D, [2016-11-27T17:08:48.757900 #17456] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"opcinr", :side=>:ask}
+D, [2016-11-27T17:08:48.759030 #17456] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"opcinr", :side=>:bid}
+I, [2016-11-27T17:08:48.760785 #17456]  INFO -- : opcinr engine already started. mode=run
+D, [2016-11-27T17:08:48.760863 #17456] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"acninr", :side=>:ask}
+D, [2016-11-27T17:08:48.761820 #17456] DEBUG -- : orderbook broadcast: {:action=>"new", :market=>"acninr", :side=>:bid}
+I, [2016-11-27T17:08:48.763441 #17456]  INFO -- : acninr engine already started. mode=run
+I, [2016-11-27T17:08:48.763484 #17456]  INFO -- : All engines reloaded.

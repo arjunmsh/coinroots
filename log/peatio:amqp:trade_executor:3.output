@@ -1,0 +1,2 @@
+peatio:amqp:trade_executor:3: process with pid 18021 started.
+I, [2016-11-27T17:09:21.556104 #18021]  INFO -- : Connected to AMQP broker (prefetch: 5)

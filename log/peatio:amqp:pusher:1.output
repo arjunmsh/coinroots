@@ -19,3 +19,5 @@ I, [2016-11-19T12:59:41.771134 #11944]  INFO -- : Connected to AMQP broker (pref
 	from lib/daemons/pusher_ctl:8:in `<main>'
 peatio:amqp:pusher:1: process with pid 14468 started.
 I, [2016-11-20T06:12:38.520008 #14468]  INFO -- : Connected to AMQP broker (prefetch: default)
+peatio:amqp:pusher:1: process with pid 17616 started.
+I, [2016-11-27T17:08:50.756710 #17616]  INFO -- : Connected to AMQP broker (prefetch: default)

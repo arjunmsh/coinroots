@@ -1,6 +1,6 @@
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-07 18:25:24 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-07 18:25:24 +0000
 
 Mysql2::Error (Unknown database 'peatio_development'):
   lib/middleware/security.rb:11:in `call'
@@ -13,7 +13,7 @@ Mysql2::Error (Unknown database 'peatio_development'):
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (166.1ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-07 18:31:24 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-07 18:31:24 +0000
 
 Mysql2::Error (Unknown database 'peatio_development'):
   lib/middleware/security.rb:11:in `call'
@@ -26,7 +26,7 @@ Mysql2::Error (Unknown database 'peatio_development'):
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (292.5ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:18:34 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:18:34 +0000
 
 Mysql2::Error (Unknown database 'peatio_development'):
   lib/middleware/security.rb:11:in `call'
@@ -39,7 +39,7 @@ Mysql2::Error (Unknown database 'peatio_development'):
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (101.2ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:18:35 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:18:35 +0000
 
 Mysql2::Error (Unknown database 'peatio_development'):
   lib/middleware/security.rb:11:in `call'
@@ -52,7 +52,7 @@ Mysql2::Error (Unknown database 'peatio_development'):
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.5ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:31:34 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:31:34 +0000
 
 ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
   lib/middleware/security.rb:11:in `call'
@@ -65,7 +65,7 @@ ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:mi
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:31:39 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:31:39 +0000
 
 ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
   lib/middleware/security.rb:11:in `call'
@@ -916,7 +916,7 @@ Migrating to AddDefaultWithdrawFundSourceIdToAccounts (20150405053726)
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:38:02 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:38:02 +0000
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
 Processing by WelcomeController#index as HTML
   [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1
@@ -934,7 +934,7 @@ ArgumentError (Invalid Timezone: India):
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:38:06 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:38:06 +0000
 Processing by WelcomeController#index as HTML
   [1m[36mMember Load (0.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1[0m
 Completed 500 Internal Server Error in 10ms
@@ -951,7 +951,7 @@ ArgumentError (Invalid Timezone: India):
   Rendered /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.4ms)
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:43:02 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:43:02 +0000
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
 Processing by WelcomeController#index as HTML
   [1m[35mMember Load (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1
@@ -966,7 +966,7 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 19696ms (Views: 19228.1ms | ActiveRecord: 61.4ms)
 
 
-Started GET "/signin" for 182.72.99.54 at 2016-11-08 06:43:41 +0000
+Started GET "/signin" for 167.114.172.29 at 2016-11-08 06:43:41 +0000
 Processing by SessionsController#new as HTML
   [1m[35mMember Load (0.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1
   [1m[36m (0.5ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2016-11-07 06:43:41')[0m
@@ -991,7 +991,7 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 1098ms (Views: 1066.0ms | ActiveRecord: 2.0ms)
 
 
-Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-08 06:43:51 +0000
+Started GET "/markets/btcinr" for 167.114.172.29 at 2016-11-08 06:43:51 +0000
 Processing by Private::MarketsController#show as HTML
   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
   [1m[36mMember Load (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1[0m
@@ -1028,10 +1028,10 @@ Processing by Private::MarketsController#show as HTML
 Completed 200 OK in 3778ms (Views: 3637.8ms | ActiveRecord: 2.0ms)
 
 
-Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-08 06:44:06 +0000
+Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 167.114.172.29 at 2016-11-08 06:44:06 +0000
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 06:45:12 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 06:45:12 +0000
 Processing by WelcomeController#index as HTML
   [1m[36mMember Load (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1[0m
   [1m[35m (0.3ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2016-11-07 06:45:12')
@@ -1045,10 +1045,10 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 38ms (Views: 28.6ms | ActiveRecord: 0.5ms)
 
 
-Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=720&trade_id=0" for 182.72.99.54 at 2016-11-08 06:52:58 +0000
+Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=720&trade_id=0" for 167.114.172.29 at 2016-11-08 06:52:58 +0000
 
 
-Started GET "/" for 182.72.99.54 at 2016-11-08 07:18:41 +0000
+Started GET "/" for 167.114.172.29 at 2016-11-08 07:18:41 +0000
 Processing by WelcomeController#index as HTML
   [1m[36mMember Load (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1[0m
   [1m[35m (0.4ms)[0m  SELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2016-11-07 07:18:41')
@@ -1062,7 +1062,7 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 37ms (Views: 23.2ms | ActiveRecord: 0.6ms)
 
 
-Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-08 07:18:45 +0000
+Started GET "/markets/btcinr" for 167.114.172.29 at 2016-11-08 07:18:45 +0000
 Processing by Private::MarketsController#show as HTML
   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
   [1m[36mMember Load (0.1ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1[0m
@@ -1098,7 +1098,7 @@ Processing by Private::MarketsController#show as HTML
 Completed 200 OK in 67ms (Views: 41.7ms | ActiveRecord: 0.6ms)
 
 
-Started GET "/signin" for 182.72.99.54 at 2016-11-08 08:39:44 +0000
+Started GET "/signin" for 167.114.172.29 at 2016-11-08 08:39:44 +0000
 Processing by SessionsController#new as HTML
   [1m[35mMember Load (0.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`disabled` = 0 AND `members`.`id` IS NULL ORDER BY `members`.`id` ASC LIMIT 1
   [1m[36m (0.3ms)[0m  [1mSELECT SUM(`trades`.`volume`) AS sum_id FROM `trades` WHERE `trades`.`currency` = 3 AND (created_at > '2016-11-07 08:39:44')[0m
@@ -1123,7 +1123,7 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 370ms (Views: 359.6ms | ActiveRecord: 0.7ms)
 
 
-Started POST "/auth/identity/callback" for 182.72.99.54 at 2016-11-08 08:40:01 +0000
+Started POST "/auth/identity/callback" for 167.114.172.29 at 2016-11-08 08:40:01 +0000
 (identity) Callback phase initiated.
   [1m[36mIdentity Load (0.4ms)[0m  [1mSELECT `identities`.* FROM `identities` WHERE `identities`.`email` = 'admin@peatio.dev' ORDER BY `identities`.`id` ASC LIMIT 1[0m
 (identity) Authentication failure! invalid_credentials encountered.

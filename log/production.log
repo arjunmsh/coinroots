@@ -1,1 +1,1352 @@
 E, [2016-11-27T16:55:58.440058 #16018] ERROR -- : Mysql2::Error: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead: CREATE TABLE `account_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `member_id` int(11), `account_id` int(11), `reason` int(11), `balance` decimal(32,16), `locked` decimal(32,16), `fee` decimal(32,16), `amount` decimal(32,16), `modifiable_id` int(11), `modifiable_type` varchar(255), `created_at` datetime, `updated_at` datetime, `currency` int(11), `fun` int(11)) ENGINE=InnoDB
+I, [2016-11-27T17:29:53.428241 #25856]  INFO -- : Started GET "/" for 167.114.172.29 at 2016-11-27 17:29:53 -0500
+I, [2016-11-27T17:29:53.525716 #25856]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:29:53.569580 #25856]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (24.4ms)
+I, [2016-11-27T17:29:53.581222 #25856]  INFO -- :   Rendered shared/_html5.html.slim (2.3ms)
+I, [2016-11-27T17:29:53.585451 #25856]  INFO -- :   Rendered shared/_meta.html.slim (3.7ms)
+I, [2016-11-27T17:29:53.591631 #25856]  INFO -- :   Rendered shared/_alert.html.slim (4.8ms)
+I, [2016-11-27T17:29:53.599217 #25856]  INFO -- :   Rendered shared/_footer.html.slim (7.0ms)
+I, [2016-11-27T17:29:53.599523 #25856]  INFO -- : Completed 200 OK in 73ms (Views: 56.1ms | ActiveRecord: 2.4ms)
+I, [2016-11-27T17:29:54.025327 #25856]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 167.114.172.29 at 2016-11-27 17:29:54 -0500
+F, [2016-11-27T17:29:54.027856 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:29:54.033499 #25856]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 167.114.172.29 at 2016-11-27 17:29:54 -0500
+F, [2016-11-27T17:29:54.035759 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-453eb913c1392d0a4f2b0032211d2826.css"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:29:54.117255 #25856]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 167.114.172.29 at 2016-11-27 17:29:54 -0500
+F, [2016-11-27T17:29:54.119324 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:29:54.329675 #25856]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 167.114.172.29 at 2016-11-27 17:29:54 -0500
+F, [2016-11-27T17:29:54.331871 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/logo-de579803ef4f6a0221f676534821e85e.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:29:54.907337 #25856]  INFO -- : Started GET "/favicon.ico" for 167.114.172.29 at 2016-11-27 17:29:54 -0500
+F, [2016-11-27T17:29:54.909601 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:29:59.757190 #25856]  INFO -- : Started GET "/" for 167.114.172.29 at 2016-11-27 17:29:59 -0500
+I, [2016-11-27T17:29:59.764786 #25856]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:29:59.777951 #25856]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (1.6ms)
+I, [2016-11-27T17:29:59.783927 #25856]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:29:59.784881 #25856]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:29:59.785540 #25856]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:29:59.785897 #25856]  INFO -- :   Rendered shared/_footer.html.slim (0.1ms)
+I, [2016-11-27T17:29:59.786187 #25856]  INFO -- : Completed 200 OK in 21ms (Views: 10.2ms | ActiveRecord: 0.5ms)
+I, [2016-11-27T17:30:00.116107 #25856]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 167.114.172.29 at 2016-11-27 17:30:00 -0500
+F, [2016-11-27T17:30:00.121217 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-453eb913c1392d0a4f2b0032211d2826.css"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:30:00.122612 #25856]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 167.114.172.29 at 2016-11-27 17:30:00 -0500
+F, [2016-11-27T17:30:00.127772 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:30:00.129182 #25856]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 167.114.172.29 at 2016-11-27 17:30:00 -0500
+F, [2016-11-27T17:30:00.131552 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:30:00.413494 #25856]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 167.114.172.29 at 2016-11-27 17:30:00 -0500
+F, [2016-11-27T17:30:00.415715 #25856] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/logo-de579803ef4f6a0221f676534821e85e.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:39.655482 #2335]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:33:39 -0500
+I, [2016-11-27T17:33:39.748734 #2335]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:33:39.779971 #2335]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (17.0ms)
+I, [2016-11-27T17:33:39.787899 #2335]  INFO -- :   Rendered shared/_html5.html.slim (1.6ms)
+I, [2016-11-27T17:33:39.790855 #2335]  INFO -- :   Rendered shared/_meta.html.slim (2.5ms)
+I, [2016-11-27T17:33:39.795174 #2335]  INFO -- :   Rendered shared/_alert.html.slim (3.7ms)
+I, [2016-11-27T17:33:39.800310 #2335]  INFO -- :   Rendered shared/_footer.html.slim (4.7ms)
+I, [2016-11-27T17:33:39.800562 #2335]  INFO -- : Completed 200 OK in 52ms (Views: 38.8ms | ActiveRecord: 1.9ms)
+I, [2016-11-27T17:33:40.094384 #2335]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 182.72.99.54 at 2016-11-27 17:33:40 -0500
+F, [2016-11-27T17:33:40.102158 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-453eb913c1392d0a4f2b0032211d2826.css"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:40.103385 #2335]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 17:33:40 -0500
+F, [2016-11-27T17:33:40.105596 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:40.106773 #2335]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 182.72.99.54 at 2016-11-27 17:33:40 -0500
+F, [2016-11-27T17:33:40.109013 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:40.404983 #2335]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 182.72.99.54 at 2016-11-27 17:33:40 -0500
+F, [2016-11-27T17:33:40.407259 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/logo-de579803ef4f6a0221f676534821e85e.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:40.412513 #2335]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 17:33:40 -0500
+F, [2016-11-27T17:33:40.414751 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:43.819819 #2335]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:33:43 -0500
+I, [2016-11-27T17:33:43.828678 #2335]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:33:43.843297 #2335]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (1.8ms)
+I, [2016-11-27T17:33:43.849760 #2335]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:33:43.850846 #2335]  INFO -- :   Rendered shared/_meta.html.slim (0.8ms)
+I, [2016-11-27T17:33:43.851642 #2335]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:33:43.852022 #2335]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T17:33:43.852422 #2335]  INFO -- : Completed 200 OK in 23ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+I, [2016-11-27T17:33:44.156825 #2335]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 17:33:44 -0500
+F, [2016-11-27T17:33:44.162052 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:44.163267 #2335]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 182.72.99.54 at 2016-11-27 17:33:44 -0500
+F, [2016-11-27T17:33:44.165458 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:44.166507 #2335]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 182.72.99.54 at 2016-11-27 17:33:44 -0500
+F, [2016-11-27T17:33:44.168771 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-453eb913c1392d0a4f2b0032211d2826.css"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:44.444684 #2335]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 182.72.99.54 at 2016-11-27 17:33:44 -0500
+F, [2016-11-27T17:33:44.449505 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/logo-de579803ef4f6a0221f676534821e85e.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:33:44.450768 #2335]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 17:33:44 -0500
+F, [2016-11-27T17:33:44.453096 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:37:22.317963 #2335]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:37:22 -0500
+I, [2016-11-27T17:37:22.319983 #2335]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:37:22.335185 #2335]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (1.7ms)
+I, [2016-11-27T17:37:22.341777 #2335]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:37:22.342834 #2335]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:37:22.343551 #2335]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:37:22.343922 #2335]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T17:37:22.344249 #2335]  INFO -- : Completed 200 OK in 24ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+I, [2016-11-27T17:37:22.680148 #2335]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 182.72.99.54 at 2016-11-27 17:37:22 -0500
+F, [2016-11-27T17:37:22.685223 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-453eb913c1392d0a4f2b0032211d2826.css"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:37:22.686507 #2335]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 182.72.99.54 at 2016-11-27 17:37:22 -0500
+F, [2016-11-27T17:37:22.691625 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:37:22.692789 #2335]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 17:37:22 -0500
+F, [2016-11-27T17:37:22.695017 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:37:23.120290 #2335]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 182.72.99.54 at 2016-11-27 17:37:23 -0500
+F, [2016-11-27T17:37:23.122558 #2335] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/logo-de579803ef4f6a0221f676534821e85e.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:44:19.447437 #6500]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:44:19 -0500
+I, [2016-11-27T17:44:19.543521 #6500]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:44:19.575269 #6500]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (17.1ms)
+I, [2016-11-27T17:44:19.583768 #6500]  INFO -- :   Rendered shared/_html5.html.slim (1.7ms)
+I, [2016-11-27T17:44:19.586940 #6500]  INFO -- :   Rendered shared/_meta.html.slim (2.7ms)
+I, [2016-11-27T17:44:19.591195 #6500]  INFO -- :   Rendered shared/_alert.html.slim (3.6ms)
+I, [2016-11-27T17:44:19.596937 #6500]  INFO -- :   Rendered shared/_footer.html.slim (5.3ms)
+I, [2016-11-27T17:44:19.597247 #6500]  INFO -- : Completed 200 OK in 53ms (Views: 40.1ms | ActiveRecord: 2.0ms)
+I, [2016-11-27T17:44:20.304351 #6500]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 182.72.99.54 at 2016-11-27 17:44:20 -0500
+I, [2016-11-27T17:44:20.356361 #6500]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 182.72.99.54 at 2016-11-27 17:44:20 -0500
+I, [2016-11-27T17:44:20.427421 #6500]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 17:44:20 -0500
+I, [2016-11-27T17:44:21.491527 #6500]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 182.72.99.54 at 2016-11-27 17:44:21 -0500
+I, [2016-11-27T17:44:27.991626 #6500]  INFO -- : Started GET "/signin" for 182.72.99.54 at 2016-11-27 17:44:27 -0500
+I, [2016-11-27T17:44:27.999570 #6500]  INFO -- : Processing by SessionsController#new as HTML
+I, [2016-11-27T17:44:28.052573 #6500]  INFO -- :   Rendered sessions/new.html.slim within layouts/application (30.7ms)
+I, [2016-11-27T17:44:28.064505 #6500]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:44:28.065521 #6500]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:44:28.066227 #6500]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:44:28.081706 #6500]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (4.3ms)
+I, [2016-11-27T17:44:28.081886 #6500]  INFO -- :   Rendered shared/_header.html.slim (14.9ms)
+I, [2016-11-27T17:44:28.094455 #6500]  INFO -- :   Rendered shared/_flash.slim (5.7ms)
+I, [2016-11-27T17:44:28.094635 #6500]  INFO -- :   Rendered shared/_frame.html.slim (12.1ms)
+I, [2016-11-27T17:44:28.094914 #6500]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T17:44:28.095223 #6500]  INFO -- : Completed 200 OK in 95ms (Views: 77.1ms | ActiveRecord: 2.3ms)
+I, [2016-11-27T17:44:28.674544 #6500]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 17:44:28 -0500
+F, [2016-11-27T17:44:28.682984 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:44:28.684254 #6500]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 17:44:28 -0500
+F, [2016-11-27T17:44:28.686716 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:44:28.687773 #6500]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 17:44:28 -0500
+F, [2016-11-27T17:44:28.689941 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:44:28.759054 #6500]  INFO -- : Started GET "/assets/font-awesome/fontawesome-webfont-843aa7179beaad6f4a7798b977ad59b4.woff" for 182.72.99.54 at 2016-11-27 17:44:28 -0500
+I, [2016-11-27T17:45:07.524266 #6500]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:45:07 -0500
+I, [2016-11-27T17:45:07.531942 #6500]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:45:07.532140 #6500]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:45:07.626387 #6500]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T17:45:07.627201 #6500]  INFO -- :   Rendered shared/_meta.html.slim (0.6ms)
+I, [2016-11-27T17:45:07.638503 #6500]  INFO -- :   Rendered private/markets/_language.html.slim (3.5ms)
+I, [2016-11-27T17:45:07.638646 #6500]  INFO -- :   Rendered private/markets/_header.html.slim (10.6ms)
+I, [2016-11-27T17:45:07.644480 #6500]  INFO -- :   Rendered private/markets/_market_trades.html.slim (5.2ms)
+I, [2016-11-27T17:45:07.654674 #6500]  INFO -- :   Rendered private/markets/_market_list.html.slim (9.6ms)
+I, [2016-11-27T17:45:07.657945 #6500]  INFO -- :   Rendered private/markets/_candlestick.html.slim (2.7ms)
+I, [2016-11-27T17:45:07.661857 #6500]  INFO -- :   Rendered private/markets/_range_switch.html.slim (3.4ms)
+I, [2016-11-27T17:45:07.667533 #6500]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (5.1ms)
+I, [2016-11-27T17:45:07.673108 #6500]  INFO -- :   Rendered private/markets/_order_book.html.slim (5.1ms)
+I, [2016-11-27T17:45:07.675545 #6500]  INFO -- :   Rendered private/markets/_depths.html.slim (1.9ms)
+I, [2016-11-27T17:45:07.679191 #6500]  INFO -- :   Rendered private/markets/_ticker.html.slim (3.1ms)
+I, [2016-11-27T17:45:07.690422 #6500]  INFO -- :   Rendered private/markets/_balance.html.slim (2.3ms)
+I, [2016-11-27T17:45:07.693508 #6500]  INFO -- :   Rendered private/markets/_mask.html.slim (2.2ms)
+I, [2016-11-27T17:45:07.693620 #6500]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (13.9ms)
+I, [2016-11-27T17:45:07.699174 #6500]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T17:45:07.700039 #6500]  INFO -- :   Rendered private/markets/_mask.html.slim (0.4ms)
+I, [2016-11-27T17:45:07.700146 #6500]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (6.1ms)
+I, [2016-11-27T17:45:07.704854 #6500]  INFO -- :   Rendered private/markets/_mask.html.slim (0.4ms)
+I, [2016-11-27T17:45:07.704968 #6500]  INFO -- :   Rendered private/markets/_my_orders.html.slim (4.4ms)
+I, [2016-11-27T17:45:07.705071 #6500]  INFO -- :   Rendered private/markets/show.html.slim (89.9ms)
+I, [2016-11-27T17:45:07.705335 #6500]  INFO -- : Completed 200 OK in 173ms (Views: 91.0ms | ActiveRecord: 5.2ms)
+I, [2016-11-27T17:45:08.096670 #6500]  INFO -- : Started GET "/assets/market-d2247a9a5725f73ec8a0af4104a865a9.css" for 182.72.99.54 at 2016-11-27 17:45:08 -0500
+I, [2016-11-27T17:45:08.246272 #6500]  INFO -- : Started GET "/assets/market-0d98c78c0533a076bbbe1ed18804daad.js" for 182.72.99.54 at 2016-11-27 17:45:08 -0500
+I, [2016-11-27T17:45:09.580464 #6500]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 17:45:09 -0500
+F, [2016-11-27T17:45:09.582893 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:45:10.293908 #6500]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 17:45:10 -0500
+F, [2016-11-27T17:45:10.296284 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:45:10.576657 #6500]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 17:45:10 -0500
+F, [2016-11-27T17:45:10.578926 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:45:11.018667 #6500]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 17:45:11 -0500
+I, [2016-11-27T17:45:11.234629 #6500]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 17:45:11 -0500
+F, [2016-11-27T17:45:11.236918 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:45:11.538052 #6500]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 17:45:11 -0500
+F, [2016-11-27T17:45:11.539362 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:45:11.690013 #6500]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 17:45:11 -0500
+F, [2016-11-27T17:45:11.692378 #6500] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:51:53.396005 #9415]  INFO -- : Started GET "/signin" for 182.72.99.54 at 2016-11-27 17:51:53 -0500
+I, [2016-11-27T17:51:53.495681 #9415]  INFO -- : Processing by SessionsController#new as HTML
+I, [2016-11-27T17:51:53.548637 #9415]  INFO -- :   Rendered sessions/new.html.slim within layouts/application (32.6ms)
+I, [2016-11-27T17:51:53.559386 #9415]  INFO -- :   Rendered shared/_html5.html.slim (1.9ms)
+I, [2016-11-27T17:51:53.562780 #9415]  INFO -- :   Rendered shared/_meta.html.slim (3.0ms)
+I, [2016-11-27T17:51:53.567829 #9415]  INFO -- :   Rendered shared/_alert.html.slim (4.4ms)
+I, [2016-11-27T17:51:53.578699 #9415]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (3.2ms)
+I, [2016-11-27T17:51:53.578771 #9415]  INFO -- :   Rendered shared/_header.html.slim (10.5ms)
+I, [2016-11-27T17:51:53.588435 #9415]  INFO -- :   Rendered shared/_flash.slim (4.6ms)
+I, [2016-11-27T17:51:53.588535 #9415]  INFO -- :   Rendered shared/_frame.html.slim (9.4ms)
+I, [2016-11-27T17:51:53.599414 #9415]  INFO -- :   Rendered shared/_footer.html.slim (5.6ms)
+I, [2016-11-27T17:51:53.599677 #9415]  INFO -- : Completed 200 OK in 104ms (Views: 86.2ms | ActiveRecord: 2.4ms)
+I, [2016-11-27T17:51:54.176059 #9415]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 17:51:54 -0500
+F, [2016-11-27T17:51:54.178638 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:51:54.415708 #9415]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 17:51:54 -0500
+F, [2016-11-27T17:51:54.420828 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:51:54.421962 #9415]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 17:51:54 -0500
+F, [2016-11-27T17:51:54.424365 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:51:56.707762 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:51:56 -0500
+I, [2016-11-27T17:51:56.717285 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:51:56.717397 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:51:56.812508 #9415]  INFO -- : Completed 500 Internal Server Error in 95ms
+F, [2016-11-27T17:51:56.813612 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:52:01.374954 #9415]  INFO -- : Started GET "/exchange_assets" for 182.72.99.54 at 2016-11-27 17:52:01 -0500
+I, [2016-11-27T17:52:01.384576 #9415]  INFO -- : Processing by Private::AssetsController#index as HTML
+I, [2016-11-27T17:52:01.453261 #9415]  INFO -- :   Rendered private/assets/_btc_assets.html.slim (22.7ms)
+I, [2016-11-27T17:52:01.453435 #9415]  INFO -- :   Rendered private/assets/index.html.slim within layouts/application (34.9ms)
+I, [2016-11-27T17:52:01.453632 #9415]  INFO -- : Completed 500 Internal Server Error in 69ms
+F, [2016-11-27T17:52:01.455366 #9415] FATAL -- : 
+ActionView::Template::Error (undefined method `asset_sum' for nil:NilClass):
+    11:               span.pull-left = t('.total')
+    12:               span.pull-right
+    13:                 == t("currency.icon.btc")
+    14:                 = @btc_proof.asset_sum
+    15:           .clearfix
+    16:           .row
+    17:             table.table
+  app/views/private/assets/_btc_assets.html.slim:14:in `_app_views_private_assets__btc_assets_html_slim___2595318104237740407_8689217549700'
+  app/views/private/assets/index.html.slim:19:in `block in _app_views_private_assets_index_html_slim__2241151022664954320_8689172316220'
+  app/views/private/assets/index.html.slim:1:in `_app_views_private_assets_index_html_slim__2241151022664954320_8689172316220'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:52:07.105168 #9415]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:52:07 -0500
+I, [2016-11-27T17:52:07.113638 #9415]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:52:07.144044 #9415]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (14.1ms)
+I, [2016-11-27T17:52:07.155481 #9415]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:52:07.156449 #9415]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:52:07.157172 #9415]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:52:07.157442 #9415]  INFO -- :   Rendered shared/_footer.html.slim (0.1ms)
+I, [2016-11-27T17:52:07.157734 #9415]  INFO -- : Completed 200 OK in 44ms (Views: 29.6ms | ActiveRecord: 0.6ms)
+I, [2016-11-27T17:52:40.634680 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:52:40 -0500
+I, [2016-11-27T17:52:40.643117 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:52:40.643264 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:52:40.661161 #9415]  INFO -- : Completed 500 Internal Server Error in 17ms
+F, [2016-11-27T17:52:40.662511 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:52:45.183080 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:52:45 -0500
+I, [2016-11-27T17:52:45.184943 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:52:45.185039 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:52:45.207630 #9415]  INFO -- : Completed 500 Internal Server Error in 22ms
+F, [2016-11-27T17:52:45.208920 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:52:56.619427 #9415]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:52:56 -0500
+I, [2016-11-27T17:52:56.627577 #9415]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:52:56.641676 #9415]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (1.6ms)
+I, [2016-11-27T17:52:56.647647 #9415]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:52:56.648529 #9415]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:52:56.649162 #9415]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:52:56.649443 #9415]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T17:52:56.649679 #9415]  INFO -- : Completed 200 OK in 22ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+I, [2016-11-27T17:52:58.794137 #9415]  INFO -- : Started GET "/signin" for 182.72.99.54 at 2016-11-27 17:52:58 -0500
+I, [2016-11-27T17:52:58.801818 #9415]  INFO -- : Processing by SessionsController#new as HTML
+I, [2016-11-27T17:52:58.824331 #9415]  INFO -- :   Rendered sessions/new.html.slim within layouts/application (7.7ms)
+I, [2016-11-27T17:52:58.830337 #9415]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:52:58.831264 #9415]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:52:58.831917 #9415]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:52:58.837910 #9415]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.2ms)
+I, [2016-11-27T17:52:58.838034 #9415]  INFO -- :   Rendered shared/_header.html.slim (5.9ms)
+I, [2016-11-27T17:52:58.839089 #9415]  INFO -- :   Rendered shared/_flash.slim (0.1ms)
+I, [2016-11-27T17:52:58.839287 #9415]  INFO -- :   Rendered shared/_frame.html.slim (1.0ms)
+I, [2016-11-27T17:52:58.839533 #9415]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T17:52:58.839773 #9415]  INFO -- : Completed 200 OK in 38ms (Views: 23.4ms | ActiveRecord: 0.8ms)
+I, [2016-11-27T17:52:59.211527 #9415]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 17:52:59 -0500
+F, [2016-11-27T17:52:59.213831 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:52:59.249911 #9415]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 17:52:59 -0500
+F, [2016-11-27T17:52:59.251975 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:52:59.361193 #9415]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 17:52:59 -0500
+F, [2016-11-27T17:52:59.363278 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:53:01.214177 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:53:01 -0500
+I, [2016-11-27T17:53:01.215788 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:53:01.215895 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:53:01.232167 #9415]  INFO -- : Completed 500 Internal Server Error in 16ms
+F, [2016-11-27T17:53:01.233431 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:53:11.537738 #9415]  INFO -- : Started GET "/markets/acninr" for 182.72.99.54 at 2016-11-27 17:53:11 -0500
+I, [2016-11-27T17:53:11.539687 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:53:11.539794 #9415]  INFO -- :   Parameters: {"id"=>"acninr", "market"=>"acninr", "ask"=>"acn", "bid"=>"inr"}
+I, [2016-11-27T17:53:11.556618 #9415]  INFO -- : Completed 500 Internal Server Error in 17ms
+F, [2016-11-27T17:53:11.558036 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:54:34.317977 #9415]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 17:54:34 -0500
+I, [2016-11-27T17:54:34.319983 #9415]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T17:54:34.335417 #9415]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (1.8ms)
+I, [2016-11-27T17:54:34.341649 #9415]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:54:34.342617 #9415]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:54:34.343323 #9415]  INFO -- :   Rendered shared/_alert.html.slim (0.3ms)
+I, [2016-11-27T17:54:34.343624 #9415]  INFO -- :   Rendered shared/_footer.html.slim (0.1ms)
+I, [2016-11-27T17:54:34.343912 #9415]  INFO -- : Completed 200 OK in 24ms (Views: 10.7ms | ActiveRecord: 0.6ms)
+I, [2016-11-27T17:54:36.725138 #9415]  INFO -- : Started GET "/signin" for 182.72.99.54 at 2016-11-27 17:54:36 -0500
+I, [2016-11-27T17:54:36.727009 #9415]  INFO -- : Processing by SessionsController#new as HTML
+I, [2016-11-27T17:54:36.754719 #9415]  INFO -- :   Rendered sessions/new.html.slim within layouts/application (6.9ms)
+I, [2016-11-27T17:54:36.760774 #9415]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T17:54:36.761672 #9415]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T17:54:36.762306 #9415]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T17:54:36.768165 #9415]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.2ms)
+I, [2016-11-27T17:54:36.768296 #9415]  INFO -- :   Rendered shared/_header.html.slim (5.8ms)
+I, [2016-11-27T17:54:36.769324 #9415]  INFO -- :   Rendered shared/_flash.slim (0.1ms)
+I, [2016-11-27T17:54:36.769472 #9415]  INFO -- :   Rendered shared/_frame.html.slim (1.0ms)
+I, [2016-11-27T17:54:36.769718 #9415]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T17:54:36.769978 #9415]  INFO -- : Completed 200 OK in 43ms (Views: 22.5ms | ActiveRecord: 2.3ms)
+I, [2016-11-27T17:54:37.142934 #9415]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 17:54:37 -0500
+F, [2016-11-27T17:54:37.145261 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:54:37.183551 #9415]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 17:54:37 -0500
+F, [2016-11-27T17:54:37.185511 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:54:37.192305 #9415]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 17:54:37 -0500
+F, [2016-11-27T17:54:37.194517 #9415] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:54:38.953178 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:54:38 -0500
+I, [2016-11-27T17:54:38.955166 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:54:38.972583 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:54:38.990293 #9415]  INFO -- : Completed 500 Internal Server Error in 18ms
+F, [2016-11-27T17:54:38.991650 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:54:42.292568 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:54:42 -0500
+I, [2016-11-27T17:54:42.294492 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:54:42.294609 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:54:42.311226 #9415]  INFO -- : Completed 500 Internal Server Error in 16ms
+F, [2016-11-27T17:54:42.312570 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T17:54:48.855582 #9415]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 17:54:48 -0500
+I, [2016-11-27T17:54:48.857543 #9415]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T17:54:48.857658 #9415]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T17:54:48.874910 #9415]  INFO -- : Completed 500 Internal Server Error in 17ms
+F, [2016-11-27T17:54:48.876289 #9415] FATAL -- : 
+Errno::ENOENT (No such file or directory @ rb_sysopen - app/views/private/markets/show.json.jbuilder):
+  app/controllers/private/markets_controller.rb:26:in `show'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:29.448945 #15148]  INFO -- : Started GET "/signin" for 182.72.99.54 at 2016-11-27 18:06:29 -0500
+I, [2016-11-27T18:06:29.540805 #15148]  INFO -- : Processing by SessionsController#new as HTML
+I, [2016-11-27T18:06:29.589969 #15148]  INFO -- :   Rendered sessions/new.html.slim within layouts/application (30.5ms)
+I, [2016-11-27T18:06:29.600248 #15148]  INFO -- :   Rendered shared/_html5.html.slim (1.9ms)
+I, [2016-11-27T18:06:29.603606 #15148]  INFO -- :   Rendered shared/_meta.html.slim (2.9ms)
+I, [2016-11-27T18:06:29.608584 #15148]  INFO -- :   Rendered shared/_alert.html.slim (4.3ms)
+I, [2016-11-27T18:06:29.619245 #15148]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (3.1ms)
+I, [2016-11-27T18:06:29.619365 #15148]  INFO -- :   Rendered shared/_header.html.slim (10.3ms)
+I, [2016-11-27T18:06:29.628495 #15148]  INFO -- :   Rendered shared/_flash.slim (4.3ms)
+I, [2016-11-27T18:06:29.628638 #15148]  INFO -- :   Rendered shared/_frame.html.slim (8.8ms)
+I, [2016-11-27T18:06:29.634273 #15148]  INFO -- :   Rendered shared/_footer.html.slim (5.2ms)
+I, [2016-11-27T18:06:29.634560 #15148]  INFO -- : Completed 200 OK in 94ms (Views: 77.4ms | ActiveRecord: 2.9ms)
+I, [2016-11-27T18:06:30.434754 #15148]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:06:30 -0500
+F, [2016-11-27T18:06:30.437528 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:30.716187 #15148]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:06:30 -0500
+F, [2016-11-27T18:06:30.718535 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:30.726310 #15148]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:06:30 -0500
+F, [2016-11-27T18:06:30.728772 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:33.105137 #15148]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 18:06:33 -0500
+I, [2016-11-27T18:06:33.114064 #15148]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T18:06:33.114264 #15148]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T18:06:33.212136 #15148]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T18:06:33.213037 #15148]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T18:06:33.236454 #15148]  INFO -- :   Rendered private/markets/_language.html.slim (14.2ms)
+I, [2016-11-27T18:06:33.236607 #15148]  INFO -- :   Rendered private/markets/_header.html.slim (22.7ms)
+I, [2016-11-27T18:06:33.243115 #15148]  INFO -- :   Rendered private/markets/_market_trades.html.slim (5.9ms)
+I, [2016-11-27T18:06:33.253116 #15148]  INFO -- :   Rendered private/markets/_market_list.html.slim (9.4ms)
+I, [2016-11-27T18:06:33.264580 #15148]  INFO -- :   Rendered private/markets/_candlestick.html.slim (2.7ms)
+I, [2016-11-27T18:06:33.268762 #15148]  INFO -- :   Rendered private/markets/_range_switch.html.slim (3.6ms)
+I, [2016-11-27T18:06:33.274801 #15148]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (5.5ms)
+I, [2016-11-27T18:06:33.280805 #15148]  INFO -- :   Rendered private/markets/_order_book.html.slim (5.5ms)
+I, [2016-11-27T18:06:33.283330 #15148]  INFO -- :   Rendered private/markets/_depths.html.slim (2.0ms)
+I, [2016-11-27T18:06:33.286970 #15148]  INFO -- :   Rendered private/markets/_ticker.html.slim (3.1ms)
+I, [2016-11-27T18:06:33.298517 #15148]  INFO -- :   Rendered private/markets/_balance.html.slim (2.4ms)
+I, [2016-11-27T18:06:33.301654 #15148]  INFO -- :   Rendered private/markets/_mask.html.slim (2.3ms)
+I, [2016-11-27T18:06:33.301750 #15148]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (14.3ms)
+I, [2016-11-27T18:06:33.307779 #15148]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T18:06:33.308651 #15148]  INFO -- :   Rendered private/markets/_mask.html.slim (0.4ms)
+I, [2016-11-27T18:06:33.308747 #15148]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (6.5ms)
+I, [2016-11-27T18:06:33.313714 #15148]  INFO -- :   Rendered private/markets/_mask.html.slim (0.4ms)
+I, [2016-11-27T18:06:33.313805 #15148]  INFO -- :   Rendered private/markets/_my_orders.html.slim (4.6ms)
+I, [2016-11-27T18:06:33.313896 #15148]  INFO -- :   Rendered private/markets/show.html.slim (115.4ms)
+I, [2016-11-27T18:06:33.314134 #15148]  INFO -- : Completed 200 OK in 200ms (Views: 116.5ms | ActiveRecord: 2.6ms)
+I, [2016-11-27T18:06:33.889165 #15148]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:06:33 -0500
+F, [2016-11-27T18:06:33.891874 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:34.112244 #15148]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:06:34 -0500
+F, [2016-11-27T18:06:34.118066 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:34.119271 #15148]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:06:34 -0500
+F, [2016-11-27T18:06:34.121589 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:34.323425 #15148]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 18:06:34 -0500
+I, [2016-11-27T18:06:37.468788 #15148]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 18:06:37 -0500
+F, [2016-11-27T18:06:37.475750 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:06:37.477167 #15148]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 18:06:37 -0500
+F, [2016-11-27T18:06:37.479515 #15148] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:07:28.410422 #15594]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 18:07:28 -0500
+I, [2016-11-27T18:07:28.503893 #15594]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T18:07:28.504017 #15594]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T18:07:28.580375 #15594]  INFO -- :   Rendered shared/_html5.html.slim (1.6ms)
+I, [2016-11-27T18:07:28.583611 #15594]  INFO -- :   Rendered shared/_meta.html.slim (2.8ms)
+I, [2016-11-27T18:07:28.592567 #15594]  INFO -- :   Rendered private/markets/_language.html.slim (2.8ms)
+I, [2016-11-27T18:07:28.592677 #15594]  INFO -- :   Rendered private/markets/_header.html.slim (8.5ms)
+I, [2016-11-27T18:07:28.597397 #15594]  INFO -- :   Rendered private/markets/_market_trades.html.slim (4.3ms)
+I, [2016-11-27T18:07:28.605311 #15594]  INFO -- :   Rendered private/markets/_market_list.html.slim (7.5ms)
+I, [2016-11-27T18:07:28.608055 #15594]  INFO -- :   Rendered private/markets/_candlestick.html.slim (2.3ms)
+I, [2016-11-27T18:07:28.611245 #15594]  INFO -- :   Rendered private/markets/_range_switch.html.slim (2.8ms)
+I, [2016-11-27T18:07:28.616274 #15594]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (4.6ms)
+I, [2016-11-27T18:07:28.621248 #15594]  INFO -- :   Rendered private/markets/_order_book.html.slim (4.6ms)
+I, [2016-11-27T18:07:28.623224 #15594]  INFO -- :   Rendered private/markets/_depths.html.slim (1.6ms)
+I, [2016-11-27T18:07:28.626081 #15594]  INFO -- :   Rendered private/markets/_ticker.html.slim (2.5ms)
+I, [2016-11-27T18:07:28.636590 #15594]  INFO -- :   Rendered private/markets/_balance.html.slim (2.3ms)
+I, [2016-11-27T18:07:28.639376 #15594]  INFO -- :   Rendered private/markets/_mask.html.slim (2.1ms)
+I, [2016-11-27T18:07:28.639469 #15594]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (13.0ms)
+I, [2016-11-27T18:07:28.645009 #15594]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T18:07:28.645792 #15594]  INFO -- :   Rendered private/markets/_mask.html.slim (0.4ms)
+I, [2016-11-27T18:07:28.645887 #15594]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (6.0ms)
+I, [2016-11-27T18:07:28.658016 #15594]  INFO -- :   Rendered private/markets/_mask.html.slim (0.5ms)
+I, [2016-11-27T18:07:28.658119 #15594]  INFO -- :   Rendered private/markets/_my_orders.html.slim (11.9ms)
+I, [2016-11-27T18:07:28.658204 #15594]  INFO -- :   Rendered private/markets/show.html.slim (98.1ms)
+I, [2016-11-27T18:07:28.658433 #15594]  INFO -- : Completed 200 OK in 154ms (Views: 99.0ms | ActiveRecord: 2.5ms)
+I, [2016-11-27T18:07:29.104931 #15594]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:07:29 -0500
+F, [2016-11-27T18:07:29.107818 #15594] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:07:29.267677 #15594]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:07:29 -0500
+F, [2016-11-27T18:07:29.270080 #15594] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:07:29.529689 #15594]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 18:07:29 -0500
+I, [2016-11-27T18:07:29.720008 #15594]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 18:07:29 -0500
+F, [2016-11-27T18:07:29.722303 #15594] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:07:29.723177 #15594]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:07:29 -0500
+F, [2016-11-27T18:07:29.724735 #15594] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:07:29.725224 #15594]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 18:07:29 -0500
+F, [2016-11-27T18:07:29.726185 #15594] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:08:15.295450 #15799]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 18:08:15 -0500
+I, [2016-11-27T18:08:15.392026 #15799]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T18:08:15.392835 #15799]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T18:08:15.482968 #15799]  INFO -- :   Rendered shared/_html5.html.slim (1.9ms)
+I, [2016-11-27T18:08:15.486400 #15799]  INFO -- :   Rendered shared/_meta.html.slim (3.0ms)
+I, [2016-11-27T18:08:15.495915 #15799]  INFO -- :   Rendered private/markets/_language.html.slim (3.1ms)
+I, [2016-11-27T18:08:15.496009 #15799]  INFO -- :   Rendered private/markets/_header.html.slim (9.0ms)
+I, [2016-11-27T18:08:15.501048 #15799]  INFO -- :   Rendered private/markets/_market_trades.html.slim (4.6ms)
+I, [2016-11-27T18:08:15.509204 #15799]  INFO -- :   Rendered private/markets/_market_list.html.slim (7.7ms)
+I, [2016-11-27T18:08:15.512015 #15799]  INFO -- :   Rendered private/markets/_candlestick.html.slim (2.4ms)
+I, [2016-11-27T18:08:15.515324 #15799]  INFO -- :   Rendered private/markets/_range_switch.html.slim (2.9ms)
+I, [2016-11-27T18:08:15.520855 #15799]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (4.8ms)
+I, [2016-11-27T18:08:15.525923 #15799]  INFO -- :   Rendered private/markets/_order_book.html.slim (4.7ms)
+I, [2016-11-27T18:08:15.527988 #15799]  INFO -- :   Rendered private/markets/_depths.html.slim (1.7ms)
+I, [2016-11-27T18:08:15.531043 #15799]  INFO -- :   Rendered private/markets/_ticker.html.slim (2.6ms)
+I, [2016-11-27T18:08:15.542080 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (2.3ms)
+I, [2016-11-27T18:08:15.544991 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (2.2ms)
+I, [2016-11-27T18:08:15.545075 #15799]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (13.6ms)
+I, [2016-11-27T18:08:15.550643 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T18:08:15.551373 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.4ms)
+I, [2016-11-27T18:08:15.551448 #15799]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (6.0ms)
+I, [2016-11-27T18:08:15.564139 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.5ms)
+I, [2016-11-27T18:08:15.564224 #15799]  INFO -- :   Rendered private/markets/_my_orders.html.slim (12.4ms)
+I, [2016-11-27T18:08:15.564295 #15799]  INFO -- :   Rendered private/markets/show.html.slim (102.8ms)
+I, [2016-11-27T18:08:15.564510 #15799]  INFO -- : Completed 200 OK in 171ms (Views: 103.7ms | ActiveRecord: 4.5ms)
+I, [2016-11-27T18:08:16.008389 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:08:16 -0500
+F, [2016-11-27T18:08:16.010912 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:08:16.191590 #15799]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 18:08:16 -0500
+F, [2016-11-27T18:08:16.202071 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:08:16.203383 #15799]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 18:08:16 -0500
+F, [2016-11-27T18:08:16.205777 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:08:16.206858 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:08:16 -0500
+F, [2016-11-27T18:08:16.209428 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:08:16.210548 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:08:16 -0500
+F, [2016-11-27T18:08:16.212846 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:08:17.128613 #15799]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 18:08:17 -0500
+I, [2016-11-27T18:12:44.201669 #15799]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 18:12:44 -0500
+I, [2016-11-27T18:12:44.209713 #15799]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T18:12:44.210049 #15799]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T18:12:44.233975 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T18:12:44.235185 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.8ms)
+I, [2016-11-27T18:12:44.237242 #15799]  INFO -- :   Rendered private/markets/_language.html.slim (0.2ms)
+I, [2016-11-27T18:12:44.237549 #15799]  INFO -- :   Rendered private/markets/_header.html.slim (1.8ms)
+I, [2016-11-27T18:12:44.238314 #15799]  INFO -- :   Rendered private/markets/_market_trades.html.slim (0.5ms)
+I, [2016-11-27T18:12:44.241961 #15799]  INFO -- :   Rendered private/markets/_market_list.html.slim (3.4ms)
+I, [2016-11-27T18:12:44.242312 #15799]  INFO -- :   Rendered private/markets/_candlestick.html.slim (0.1ms)
+I, [2016-11-27T18:12:44.243699 #15799]  INFO -- :   Rendered private/markets/_range_switch.html.slim (1.1ms)
+I, [2016-11-27T18:12:44.244144 #15799]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (0.2ms)
+I, [2016-11-27T18:12:44.244936 #15799]  INFO -- :   Rendered private/markets/_order_book.html.slim (0.5ms)
+I, [2016-11-27T18:12:44.245230 #15799]  INFO -- :   Rendered private/markets/_depths.html.slim (0.1ms)
+I, [2016-11-27T18:12:44.245702 #15799]  INFO -- :   Rendered private/markets/_ticker.html.slim (0.2ms)
+I, [2016-11-27T18:12:44.248252 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.1ms)
+I, [2016-11-27T18:12:44.249757 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:12:44.249907 #15799]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (4.0ms)
+I, [2016-11-27T18:12:44.252125 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T18:12:44.253518 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:12:44.253669 #15799]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (3.5ms)
+I, [2016-11-27T18:12:44.256342 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:12:44.256507 #15799]  INFO -- :   Rendered private/markets/_my_orders.html.slim (2.6ms)
+I, [2016-11-27T18:12:44.256654 #15799]  INFO -- :   Rendered private/markets/show.html.slim (28.7ms)
+I, [2016-11-27T18:12:44.256976 #15799]  INFO -- : Completed 200 OK in 47ms (Views: 29.2ms | ActiveRecord: 0.7ms)
+I, [2016-11-27T18:12:44.714854 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:12:44 -0500
+F, [2016-11-27T18:12:44.717348 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:12:44.815960 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:12:44 -0500
+F, [2016-11-27T18:12:44.818364 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:12:44.822570 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:12:44 -0500
+F, [2016-11-27T18:12:44.824897 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:12:44.937106 #15799]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 18:12:44 -0500
+F, [2016-11-27T18:12:44.942629 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:12:44.943864 #15799]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 18:12:44 -0500
+F, [2016-11-27T18:12:44.946034 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:12:45.090432 #15799]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 18:12:45 -0500
+I, [2016-11-27T18:19:06.815366 #15799]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 18:19:06 -0500
+I, [2016-11-27T18:19:06.817464 #15799]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T18:19:06.817660 #15799]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T18:19:06.840921 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T18:19:06.841987 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.8ms)
+I, [2016-11-27T18:19:06.844086 #15799]  INFO -- :   Rendered private/markets/_language.html.slim (0.2ms)
+I, [2016-11-27T18:19:06.844285 #15799]  INFO -- :   Rendered private/markets/_header.html.slim (1.8ms)
+I, [2016-11-27T18:19:06.845120 #15799]  INFO -- :   Rendered private/markets/_market_trades.html.slim (0.6ms)
+I, [2016-11-27T18:19:06.849037 #15799]  INFO -- :   Rendered private/markets/_market_list.html.slim (3.6ms)
+I, [2016-11-27T18:19:06.849337 #15799]  INFO -- :   Rendered private/markets/_candlestick.html.slim (0.0ms)
+I, [2016-11-27T18:19:06.850684 #15799]  INFO -- :   Rendered private/markets/_range_switch.html.slim (1.1ms)
+I, [2016-11-27T18:19:06.851135 #15799]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (0.2ms)
+I, [2016-11-27T18:19:06.851924 #15799]  INFO -- :   Rendered private/markets/_order_book.html.slim (0.5ms)
+I, [2016-11-27T18:19:06.852235 #15799]  INFO -- :   Rendered private/markets/_depths.html.slim (0.1ms)
+I, [2016-11-27T18:19:06.852692 #15799]  INFO -- :   Rendered private/markets/_ticker.html.slim (0.2ms)
+I, [2016-11-27T18:19:06.855145 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.1ms)
+I, [2016-11-27T18:19:06.856693 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.8ms)
+I, [2016-11-27T18:19:06.856862 #15799]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (3.9ms)
+I, [2016-11-27T18:19:06.859106 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T18:19:06.860572 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:19:06.860723 #15799]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (3.6ms)
+I, [2016-11-27T18:19:06.863425 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:19:06.863598 #15799]  INFO -- :   Rendered private/markets/_my_orders.html.slim (2.6ms)
+I, [2016-11-27T18:19:06.863743 #15799]  INFO -- :   Rendered private/markets/show.html.slim (28.8ms)
+I, [2016-11-27T18:19:06.864013 #15799]  INFO -- : Completed 200 OK in 46ms (Views: 29.3ms | ActiveRecord: 0.7ms)
+I, [2016-11-27T18:19:07.163328 #15799]  INFO -- : Started GET "/assets/market-d2247a9a5725f73ec8a0af4104a865a9.css" for 182.72.99.54 at 2016-11-27 18:19:07 -0500
+I, [2016-11-27T18:19:07.214080 #15799]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 18:19:07 -0500
+I, [2016-11-27T18:19:07.220250 #15799]  INFO -- : Started GET "/assets/market-0d98c78c0533a076bbbe1ed18804daad.js" for 182.72.99.54 at 2016-11-27 18:19:07 -0500
+I, [2016-11-27T18:19:08.591799 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:19:08 -0500
+F, [2016-11-27T18:19:08.594221 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:08.868749 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:19:08 -0500
+F, [2016-11-27T18:19:08.870932 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:09.174598 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:19:09 -0500
+F, [2016-11-27T18:19:09.176857 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:09.722647 #15799]  INFO -- : Started GET "/assets/font-awesome/fontawesome-webfont-843aa7179beaad6f4a7798b977ad59b4.woff" for 182.72.99.54 at 2016-11-27 18:19:09 -0500
+I, [2016-11-27T18:19:09.951741 #15799]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 18:19:09 -0500
+I, [2016-11-27T18:19:10.035079 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 18:19:10 -0500
+F, [2016-11-27T18:19:10.037178 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:10.108914 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 18:19:10 -0500
+F, [2016-11-27T18:19:10.111241 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:10.269773 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 18:19:10 -0500
+F, [2016-11-27T18:19:10.272089 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:10.365102 #15799]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 18:19:10 -0500
+F, [2016-11-27T18:19:10.370910 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:10.372098 #15799]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 18:19:10 -0500
+F, [2016-11-27T18:19:10.374423 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:10.784205 #15799]  INFO -- : Started GET "/favicon.ico" for 182.72.99.54 at 2016-11-27 18:19:10 -0500
+F, [2016-11-27T18:19:10.786474 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:19:32.792415 #15799]  INFO -- : Started PROPFIND "/webdav/" for 170.0.236.103 at 2016-11-27 18:19:32 -0500
+F, [2016-11-27T18:19:32.793961 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:21:01.044367 #15799]  INFO -- : Started PROPFIND "/webdav/" for 198.27.80.140 at 2016-11-27 18:21:01 -0500
+F, [2016-11-27T18:21:01.046051 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:24:29.853771 #15799]  INFO -- : Started PROPFIND "/webdav/" for 158.69.92.117 at 2016-11-27 18:24:29 -0500
+F, [2016-11-27T18:24:29.855511 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:24:49.120023 #15799]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 18:24:49 -0500
+I, [2016-11-27T18:24:49.121867 #15799]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T18:24:49.122011 #15799]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T18:24:49.144119 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T18:24:49.144985 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.6ms)
+I, [2016-11-27T18:24:49.146776 #15799]  INFO -- :   Rendered private/markets/_language.html.slim (0.1ms)
+I, [2016-11-27T18:24:49.146941 #15799]  INFO -- :   Rendered private/markets/_header.html.slim (1.5ms)
+I, [2016-11-27T18:24:49.147660 #15799]  INFO -- :   Rendered private/markets/_market_trades.html.slim (0.5ms)
+I, [2016-11-27T18:24:49.151070 #15799]  INFO -- :   Rendered private/markets/_market_list.html.slim (3.2ms)
+I, [2016-11-27T18:24:49.151386 #15799]  INFO -- :   Rendered private/markets/_candlestick.html.slim (0.0ms)
+I, [2016-11-27T18:24:49.152579 #15799]  INFO -- :   Rendered private/markets/_range_switch.html.slim (1.0ms)
+I, [2016-11-27T18:24:49.152953 #15799]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (0.1ms)
+I, [2016-11-27T18:24:49.153630 #15799]  INFO -- :   Rendered private/markets/_order_book.html.slim (0.4ms)
+I, [2016-11-27T18:24:49.153874 #15799]  INFO -- :   Rendered private/markets/_depths.html.slim (0.0ms)
+I, [2016-11-27T18:24:49.154296 #15799]  INFO -- :   Rendered private/markets/_ticker.html.slim (0.2ms)
+I, [2016-11-27T18:24:49.156422 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.1ms)
+I, [2016-11-27T18:24:49.157765 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:24:49.157910 #15799]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (3.4ms)
+I, [2016-11-27T18:24:49.159865 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T18:24:49.161170 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:24:49.161319 #15799]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (3.2ms)
+I, [2016-11-27T18:24:49.163773 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.7ms)
+I, [2016-11-27T18:24:49.163922 #15799]  INFO -- :   Rendered private/markets/_my_orders.html.slim (2.4ms)
+I, [2016-11-27T18:24:49.164051 #15799]  INFO -- :   Rendered private/markets/show.html.slim (26.3ms)
+I, [2016-11-27T18:24:49.164286 #15799]  INFO -- : Completed 200 OK in 42ms (Views: 26.7ms | ActiveRecord: 0.5ms)
+I, [2016-11-27T18:24:51.027550 #15799]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 18:24:51 -0500
+F, [2016-11-27T18:24:51.030105 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:30:18.214225 #15799]  INFO -- : Started GET "/html/" for 182.72.99.54 at 2016-11-27 18:30:18 -0500
+F, [2016-11-27T18:30:18.215927 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/html"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:30:24.729385 #15799]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 18:30:24 -0500
+I, [2016-11-27T18:30:24.737577 #15799]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T18:30:24.772309 #15799]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (13.7ms)
+I, [2016-11-27T18:30:24.783508 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T18:30:24.784498 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.7ms)
+I, [2016-11-27T18:30:24.792135 #15799]  INFO -- :   Rendered shared/_alert.html.slim (6.2ms)
+I, [2016-11-27T18:30:24.800869 #15799]  INFO -- :   Rendered shared/_footer.html.slim (8.0ms)
+I, [2016-11-27T18:30:24.801201 #15799]  INFO -- : Completed 200 OK in 58ms (Views: 44.4ms | ActiveRecord: 0.6ms)
+I, [2016-11-27T18:30:25.099426 #15799]  INFO -- : Started GET "/assets/application-453eb913c1392d0a4f2b0032211d2826.css" for 182.72.99.54 at 2016-11-27 18:30:25 -0500
+I, [2016-11-27T18:30:25.134345 #15799]  INFO -- : Started GET "/assets/application-89b9c8d2652301fa3c8f31f8e97d0d1f.js" for 182.72.99.54 at 2016-11-27 18:30:25 -0500
+I, [2016-11-27T18:30:25.328884 #15799]  INFO -- : Started GET "/assets/locales/en-62ff80ad0f92fd9a73466693b97a24e4.js" for 182.72.99.54 at 2016-11-27 18:30:25 -0500
+I, [2016-11-27T18:30:26.278054 #15799]  INFO -- : Started GET "/assets/logo-de579803ef4f6a0221f676534821e85e.png" for 182.72.99.54 at 2016-11-27 18:30:26 -0500
+I, [2016-11-27T18:39:03.802253 #15799]  INFO -- : Started PROPFIND "/webdav/" for 158.69.92.117 at 2016-11-27 18:39:03 -0500
+F, [2016-11-27T18:39:03.803991 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:42:28.443207 #15799]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 18:42:28 -0500
+I, [2016-11-27T18:42:28.451224 #15799]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T18:42:28.466242 #15799]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (1.8ms)
+I, [2016-11-27T18:42:28.472612 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.2ms)
+I, [2016-11-27T18:42:28.473687 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.8ms)
+I, [2016-11-27T18:42:28.474462 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.2ms)
+I, [2016-11-27T18:42:28.474887 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.1ms)
+I, [2016-11-27T18:42:28.475228 #15799]  INFO -- : Completed 200 OK in 24ms (Views: 11.1ms | ActiveRecord: 0.6ms)
+I, [2016-11-27T18:48:01.556460 #15799]  INFO -- : Started PROPFIND "/webdav/" for 198.27.89.245 at 2016-11-27 18:48:01 -0500
+F, [2016-11-27T18:48:01.557889 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T18:50:52.664468 #15799]  INFO -- : Started PROPFIND "/webdav/" for 158.69.244.240 at 2016-11-27 18:50:52 -0500
+F, [2016-11-27T18:50:52.666229 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:07:01.214590 #15799]  INFO -- : Started GET "/" for 182.72.99.54 at 2016-11-27 19:07:01 -0500
+I, [2016-11-27T19:07:01.215410 #15799]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2016-11-27T19:07:01.223190 #15799]  INFO -- :   Rendered welcome/index.html.slim within layouts/landing (0.7ms)
+I, [2016-11-27T19:07:01.225675 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:07:01.226074 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.3ms)
+I, [2016-11-27T19:07:01.226408 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:07:01.226597 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:07:01.226785 #15799]  INFO -- : Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 0.8ms)
+I, [2016-11-27T19:07:08.178165 #15799]  INFO -- : Started GET "/signin" for 182.72.99.54 at 2016-11-27 19:07:08 -0500
+I, [2016-11-27T19:07:08.181662 #15799]  INFO -- : Processing by SessionsController#new as HTML
+I, [2016-11-27T19:07:08.204348 #15799]  INFO -- :   Rendered sessions/new.html.slim within layouts/application (13.4ms)
+I, [2016-11-27T19:07:08.217216 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:07:08.217698 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.4ms)
+I, [2016-11-27T19:07:08.218061 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:07:08.227952 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (2.9ms)
+I, [2016-11-27T19:07:08.228047 #15799]  INFO -- :   Rendered shared/_header.html.slim (9.6ms)
+I, [2016-11-27T19:07:08.236599 #15799]  INFO -- :   Rendered shared/_flash.slim (4.1ms)
+I, [2016-11-27T19:07:08.236739 #15799]  INFO -- :   Rendered shared/_frame.html.slim (8.3ms)
+I, [2016-11-27T19:07:08.236886 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:07:08.237111 #15799]  INFO -- : Completed 200 OK in 55ms (Views: 47.5ms | ActiveRecord: 1.1ms)
+I, [2016-11-27T19:07:08.597121 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:07:08 -0500
+F, [2016-11-27T19:07:08.598253 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:07:08.813525 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:07:08 -0500
+F, [2016-11-27T19:07:08.814588 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:07:08.818833 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:07:08 -0500
+F, [2016-11-27T19:07:08.819641 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:07:08.853647 #15799]  INFO -- : Started GET "/assets/font-awesome/fontawesome-webfont-843aa7179beaad6f4a7798b977ad59b4.woff" for 182.72.99.54 at 2016-11-27 19:07:08 -0500
+I, [2016-11-27T19:08:11.280295 #15799]  INFO -- : Started POST "/auth/identity/callback" for 182.72.99.54 at 2016-11-27 19:08:11 -0500
+I, [2016-11-27T19:08:11.281199 #15799]  INFO -- : (identity) Callback phase initiated.
+I, [2016-11-27T19:08:11.396931 #15799]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-27T19:08:11.397024 #15799]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"YMjnu0jTkhv9SiLXsUmihxVptQb8PhJWFm6cp0fcY+s=", "auth_key"=>"admin@peatio.dev", "password"=>"[FILTERED]", "commit"=>"Sign In", "provider"=>"identity"}
+I, [2016-11-27T19:08:11.450156 #15799]  INFO -- : Redirected to http://coinroots.com:3000/settings
+I, [2016-11-27T19:08:11.450314 #15799]  INFO -- : Completed 302 Found in 53ms (ActiveRecord: 24.5ms)
+I, [2016-11-27T19:08:42.427551 #15799]  INFO -- : Started GET "/settings" for 182.72.99.54 at 2016-11-27 19:08:42 -0500
+I, [2016-11-27T19:08:42.431480 #15799]  INFO -- : Processing by Private::SettingsController#index as HTML
+I, [2016-11-27T19:08:42.517858 #15799]  INFO -- :   Rendered private/settings/index.html.slim within layouts/application (66.7ms)
+I, [2016-11-27T19:08:42.521223 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:08:42.521794 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.5ms)
+I, [2016-11-27T19:08:42.522299 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:08:42.535457 #15799]  INFO -- :   Rendered shared/_header_profile_setting.html.slim (11.6ms)
+I, [2016-11-27T19:08:42.535713 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.1ms)
+I, [2016-11-27T19:08:42.535786 #15799]  INFO -- :   Rendered shared/_header.html.slim (13.4ms)
+I, [2016-11-27T19:08:42.536384 #15799]  INFO -- :   Rendered shared/_flash.slim (0.2ms)
+I, [2016-11-27T19:08:42.536471 #15799]  INFO -- :   Rendered shared/_frame.html.slim (0.6ms)
+I, [2016-11-27T19:08:42.536603 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:08:42.536797 #15799]  INFO -- : Completed 200 OK in 105ms (Views: 83.1ms | ActiveRecord: 5.8ms)
+I, [2016-11-27T19:08:42.934768 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:08:42 -0500
+F, [2016-11-27T19:08:42.936057 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:08:43.178788 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:08:43 -0500
+F, [2016-11-27T19:08:43.179960 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:08:43.182385 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:08:43 -0500
+F, [2016-11-27T19:08:43.183437 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:08.413261 #15799]  INFO -- : Started GET "/exchange_assets" for 182.72.99.54 at 2016-11-27 19:09:08 -0500
+I, [2016-11-27T19:09:08.417066 #15799]  INFO -- : Processing by Private::AssetsController#index as HTML
+I, [2016-11-27T19:09:08.452657 #15799]  INFO -- :   Rendered private/assets/_liability_tabs.html.slim (8.4ms)
+I, [2016-11-27T19:09:08.452738 #15799]  INFO -- :   Rendered private/assets/_liability_proof.html.slim (12.9ms)
+I, [2016-11-27T19:09:08.452828 #15799]  INFO -- :   Rendered private/assets/index.html.slim within layouts/application (20.6ms)
+I, [2016-11-27T19:09:08.452966 #15799]  INFO -- : Completed 500 Internal Server Error in 36ms
+F, [2016-11-27T19:09:08.454644 #15799] FATAL -- : 
+ActionView::Template::Error (undefined method `sum' for nil:NilClass):
+    11:         span.title = t('.btc-assets-total')
+    12:         span.currency
+    13:           == t("currency.icon.btc")
+    14:           = @btc_proof.sum
+    15:       = render 'liability_data', account: @btc_account, proof: @btc_proof
+    16:     #acn-proof.tab-pane.active: .trade-wrapper
+    17:       .assets
+  app/views/private/assets/_liability_tabs.html.slim:14:in `_app_views_private_assets__liability_tabs_html_slim__1312302890924275282_4875386447580'
+  app/views/private/assets/_liability_proof.html.slim:10:in `_app_views_private_assets__liability_proof_html_slim__1722857216475697266_4875385803680'
+  app/views/private/assets/index.html.slim:17:in `block in _app_views_private_assets_index_html_slim___2755547868458778453_4875384205820'
+  app/views/private/assets/index.html.slim:1:in `_app_views_private_assets_index_html_slim___2755547868458778453_4875384205820'
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:10.987111 #15799]  INFO -- : Started GET "/settings" for 182.72.99.54 at 2016-11-27 19:09:10 -0500
+I, [2016-11-27T19:09:10.991802 #15799]  INFO -- : Processing by Private::SettingsController#index as HTML
+I, [2016-11-27T19:09:11.026571 #15799]  INFO -- :   Rendered private/settings/index.html.slim within layouts/application (24.9ms)
+I, [2016-11-27T19:09:11.029266 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:09:11.029674 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.3ms)
+I, [2016-11-27T19:09:11.029981 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:09:11.032349 #15799]  INFO -- :   Rendered shared/_header_profile_setting.html.slim (1.5ms)
+I, [2016-11-27T19:09:11.032539 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.1ms)
+I, [2016-11-27T19:09:11.032612 #15799]  INFO -- :   Rendered shared/_header.html.slim (2.5ms)
+I, [2016-11-27T19:09:11.033003 #15799]  INFO -- :   Rendered shared/_flash.slim (0.0ms)
+I, [2016-11-27T19:09:11.033085 #15799]  INFO -- :   Rendered shared/_frame.html.slim (0.4ms)
+I, [2016-11-27T19:09:11.033209 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:09:11.033383 #15799]  INFO -- : Completed 200 OK in 41ms (Views: 30.8ms | ActiveRecord: 2.4ms)
+I, [2016-11-27T19:09:12.995073 #15799]  INFO -- : Started GET "/history/orders" for 182.72.99.54 at 2016-11-27 19:09:12 -0500
+I, [2016-11-27T19:09:12.998070 #15799]  INFO -- : Processing by Private::HistoryController#orders as HTML
+I, [2016-11-27T19:09:13.012867 #15799]  INFO -- :   Rendered private/history/_tabs.html.slim (2.0ms)
+I, [2016-11-27T19:09:13.014902 #15799]  INFO -- :   Rendered private/history/_order.html.slim (0.0ms)
+I, [2016-11-27T19:09:13.017962 #15799]  INFO -- :   Rendered private/history/orders.html.slim within layouts/application (10.5ms)
+I, [2016-11-27T19:09:13.020729 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:09:13.021225 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.4ms)
+I, [2016-11-27T19:09:13.021589 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:09:13.024229 #15799]  INFO -- :   Rendered shared/_header_profile_setting.html.slim (1.7ms)
+I, [2016-11-27T19:09:13.024430 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.1ms)
+I, [2016-11-27T19:09:13.024499 #15799]  INFO -- :   Rendered shared/_header.html.slim (2.8ms)
+I, [2016-11-27T19:09:13.024650 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:09:13.024848 #15799]  INFO -- : Completed 200 OK in 27ms (Views: 17.9ms | ActiveRecord: 1.3ms)
+I, [2016-11-27T19:09:13.402834 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:09:13 -0500
+F, [2016-11-27T19:09:13.403953 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:13.444784 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:09:13 -0500
+F, [2016-11-27T19:09:13.445808 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:13.453113 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:09:13 -0500
+F, [2016-11-27T19:09:13.454133 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:15.705837 #15799]  INFO -- : Started GET "/history/trades" for 182.72.99.54 at 2016-11-27 19:09:15 -0500
+I, [2016-11-27T19:09:15.708880 #15799]  INFO -- : Processing by Private::HistoryController#trades as HTML
+I, [2016-11-27T19:09:15.721376 #15799]  INFO -- :   Rendered private/history/_tabs.html.slim (0.4ms)
+I, [2016-11-27T19:09:15.722575 #15799]  INFO -- :   Rendered private/history/_trade.html.slim (0.0ms)
+I, [2016-11-27T19:09:15.723413 #15799]  INFO -- :   Rendered private/history/trades.html.slim within layouts/application (5.4ms)
+I, [2016-11-27T19:09:15.725994 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:09:15.726423 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.3ms)
+I, [2016-11-27T19:09:15.726718 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:09:15.729104 #15799]  INFO -- :   Rendered shared/_header_profile_setting.html.slim (1.5ms)
+I, [2016-11-27T19:09:15.729307 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.1ms)
+I, [2016-11-27T19:09:15.729375 #15799]  INFO -- :   Rendered shared/_header.html.slim (2.6ms)
+I, [2016-11-27T19:09:15.729542 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:09:15.729685 #15799]  INFO -- : Completed 200 OK in 21ms (Views: 11.6ms | ActiveRecord: 1.5ms)
+I, [2016-11-27T19:09:16.106557 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:09:16 -0500
+F, [2016-11-27T19:09:16.107591 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:16.145716 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:09:16 -0500
+F, [2016-11-27T19:09:16.146730 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:16.149021 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:09:16 -0500
+F, [2016-11-27T19:09:16.149777 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:17.291028 #15799]  INFO -- : Started GET "/history/account" for 182.72.99.54 at 2016-11-27 19:09:17 -0500
+I, [2016-11-27T19:09:17.291928 #15799]  INFO -- : Processing by Private::HistoryController#account as HTML
+I, [2016-11-27T19:09:17.304893 #15799]  INFO -- :   Rendered private/history/_tabs.html.slim (0.4ms)
+I, [2016-11-27T19:09:17.305576 #15799]  INFO -- :   Rendered private/history/_transaction.html.slim (0.0ms)
+I, [2016-11-27T19:09:17.305886 #15799]  INFO -- :   Rendered private/history/account.html.slim within layouts/application (4.3ms)
+I, [2016-11-27T19:09:17.308526 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:09:17.308959 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.3ms)
+I, [2016-11-27T19:09:17.309248 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:09:17.311828 #15799]  INFO -- :   Rendered shared/_header_profile_setting.html.slim (1.7ms)
+I, [2016-11-27T19:09:17.312023 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.1ms)
+I, [2016-11-27T19:09:17.312096 #15799]  INFO -- :   Rendered shared/_header.html.slim (2.7ms)
+I, [2016-11-27T19:09:17.312266 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:09:17.312408 #15799]  INFO -- : Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 1.9ms)
+I, [2016-11-27T19:09:17.622181 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:09:17 -0500
+F, [2016-11-27T19:09:17.623157 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:17.669189 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:09:17 -0500
+F, [2016-11-27T19:09:17.670175 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:17.677111 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:09:17 -0500
+F, [2016-11-27T19:09:17.677895 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:19.510976 #15799]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 19:09:19 -0500
+I, [2016-11-27T19:09:19.513034 #15799]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T19:09:19.597323 #15799]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T19:09:19.621174 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:09:19.622072 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.6ms)
+I, [2016-11-27T19:09:19.634156 #15799]  INFO -- :   Rendered private/markets/_account_summary.html.slim (10.6ms)
+I, [2016-11-27T19:09:19.642759 #15799]  INFO -- :   Rendered private/markets/_settings.html.slim (8.0ms)
+I, [2016-11-27T19:09:19.643204 #15799]  INFO -- :   Rendered private/markets/_language.html.slim (0.2ms)
+I, [2016-11-27T19:09:19.643332 #15799]  INFO -- :   Rendered private/markets/_header.html.slim (20.9ms)
+I, [2016-11-27T19:09:19.643928 #15799]  INFO -- :   Rendered private/markets/_market_trades.html.slim (0.4ms)
+I, [2016-11-27T19:09:19.646713 #15799]  INFO -- :   Rendered private/markets/_market_list.html.slim (2.6ms)
+I, [2016-11-27T19:09:19.646945 #15799]  INFO -- :   Rendered private/markets/_candlestick.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.647978 #15799]  INFO -- :   Rendered private/markets/_range_switch.html.slim (0.8ms)
+I, [2016-11-27T19:09:19.648313 #15799]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (0.1ms)
+I, [2016-11-27T19:09:19.648897 #15799]  INFO -- :   Rendered private/markets/_order_book.html.slim (0.4ms)
+I, [2016-11-27T19:09:19.649113 #15799]  INFO -- :   Rendered private/markets/_depths.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.649479 #15799]  INFO -- :   Rendered private/markets/_ticker.html.slim (0.2ms)
+I, [2016-11-27T19:09:19.651456 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.652065 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.652180 #15799]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (2.5ms)
+I, [2016-11-27T19:09:19.653827 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.654347 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.654460 #15799]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (2.1ms)
+I, [2016-11-27T19:09:19.655961 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.0ms)
+I, [2016-11-27T19:09:19.656104 #15799]  INFO -- :   Rendered private/markets/_my_orders.html.slim (1.5ms)
+I, [2016-11-27T19:09:19.656220 #15799]  INFO -- :   Rendered private/markets/show.html.slim (40.4ms)
+I, [2016-11-27T19:09:19.656471 #15799]  INFO -- : Completed 200 OK in 59ms (Views: 40.9ms | ActiveRecord: 1.8ms)
+I, [2016-11-27T19:09:19.944954 #15799]  INFO -- : Started GET "/assets/market-0d98c78c0533a076bbbe1ed18804daad.js" for 182.72.99.54 at 2016-11-27 19:09:19 -0500
+I, [2016-11-27T19:09:19.948552 #15799]  INFO -- : Started GET "/assets/market-d2247a9a5725f73ec8a0af4104a865a9.css" for 182.72.99.54 at 2016-11-27 19:09:19 -0500
+I, [2016-11-27T19:09:22.024159 #15799]  INFO -- : Started GET "/icon-inr.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.025228 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-inr.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.287720 #15799]  INFO -- : Started GET "/icon-btc.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.288754 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-btc.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.290884 #15799]  INFO -- : Started GET "/icon-acn.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.291689 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-acn.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.299080 #15799]  INFO -- : Started GET "/icon-opc.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.299998 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-opc.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.539126 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.540178 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.543896 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.544676 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.547794 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.548554 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.615193 #15799]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+I, [2016-11-27T19:09:22.776872 #15799]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.778074 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:22.780140 #15799]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 19:09:22 -0500
+F, [2016-11-27T19:09:22.780994 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:23.701289 #15799]  INFO -- : Started POST "/pusher/auth" for 182.72.99.54 at 2016-11-27 19:09:23 -0500
+I, [2016-11-27T19:09:23.704632 #15799]  INFO -- : Processing by Private::PusherController#auth as */*
+I, [2016-11-27T19:09:23.704684 #15799]  INFO -- :   Parameters: {"socket_id"=>"207465.489883", "channel_name"=>"private-PEALITGVIKXTIO"}
+I, [2016-11-27T19:09:23.711895 #15799]  INFO -- : Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+I, [2016-11-27T19:09:52.175446 #15799]  INFO -- : Started GET "/markets/btcinr" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+I, [2016-11-27T19:09:52.176379 #15799]  INFO -- : Processing by Private::MarketsController#show as HTML
+I, [2016-11-27T19:09:52.176432 #15799]  INFO -- :   Parameters: {"id"=>"btcinr", "market"=>"btcinr", "ask"=>"btc", "bid"=>"inr"}
+I, [2016-11-27T19:09:52.188415 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:09:52.188874 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.3ms)
+I, [2016-11-27T19:09:52.190375 #15799]  INFO -- :   Rendered private/markets/_account_summary.html.slim (1.0ms)
+I, [2016-11-27T19:09:52.190768 #15799]  INFO -- :   Rendered private/markets/_settings.html.slim (0.3ms)
+I, [2016-11-27T19:09:52.190949 #15799]  INFO -- :   Rendered private/markets/_language.html.slim (0.1ms)
+I, [2016-11-27T19:09:52.191016 #15799]  INFO -- :   Rendered private/markets/_header.html.slim (1.9ms)
+I, [2016-11-27T19:09:52.191351 #15799]  INFO -- :   Rendered private/markets/_market_trades.html.slim (0.2ms)
+I, [2016-11-27T19:09:52.193103 #15799]  INFO -- :   Rendered private/markets/_market_list.html.slim (1.6ms)
+I, [2016-11-27T19:09:52.193239 #15799]  INFO -- :   Rendered private/markets/_candlestick.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.193810 #15799]  INFO -- :   Rendered private/markets/_range_switch.html.slim (0.4ms)
+I, [2016-11-27T19:09:52.193999 #15799]  INFO -- :   Rendered private/markets/_indicator_switch.html.slim (0.1ms)
+I, [2016-11-27T19:09:52.194328 #15799]  INFO -- :   Rendered private/markets/_order_book.html.slim (0.2ms)
+I, [2016-11-27T19:09:52.194444 #15799]  INFO -- :   Rendered private/markets/_depths.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.194642 #15799]  INFO -- :   Rendered private/markets/_ticker.html.slim (0.1ms)
+I, [2016-11-27T19:09:52.195759 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.196102 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.196167 #15799]  INFO -- :   Rendered private/markets/_ask_entry.html.slim (1.4ms)
+I, [2016-11-27T19:09:52.197109 #15799]  INFO -- :   Rendered private/markets/_balance.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.197434 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.197499 #15799]  INFO -- :   Rendered private/markets/_bid_entry.html.slim (1.2ms)
+I, [2016-11-27T19:09:52.198410 #15799]  INFO -- :   Rendered private/markets/_mask.html.slim (0.0ms)
+I, [2016-11-27T19:09:52.198483 #15799]  INFO -- :   Rendered private/markets/_my_orders.html.slim (0.9ms)
+I, [2016-11-27T19:09:52.198552 #15799]  INFO -- :   Rendered private/markets/show.html.slim (13.0ms)
+I, [2016-11-27T19:09:52.198728 #15799]  INFO -- : Completed 200 OK in 22ms (Views: 13.3ms | ActiveRecord: 0.9ms)
+I, [2016-11-27T19:09:52.539030 #15799]  INFO -- : Started GET "/icon-inr.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.540191 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-inr.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.706165 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.709333 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.710873 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.712797 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.713362 #15799]  INFO -- : Started GET "/icon-opc.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.715125 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-opc.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.715548 #15799]  INFO -- : Started GET "/icon-btc.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.716343 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-btc.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.716701 #15799]  INFO -- : Started GET "/icon-acn.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.717534 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/icon-acn.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.814110 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+F, [2016-11-27T19:09:52.821543 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:52.972421 #15799]  INFO -- : Started GET "/api/v2/k_with_pending_trades.json?market=btcinr&limit=768&period=60&trade_id=0" for 182.72.99.54 at 2016-11-27 19:09:52 -0500
+I, [2016-11-27T19:09:53.032302 #15799]  INFO -- : Started GET "/sounds/warning.mp3" for 182.72.99.54 at 2016-11-27 19:09:53 -0500
+F, [2016-11-27T19:09:53.033392 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/warning.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:53.036709 #15799]  INFO -- : Started GET "/sounds/success.mp3" for 182.72.99.54 at 2016-11-27 19:09:53 -0500
+F, [2016-11-27T19:09:53.037543 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/sounds/success.mp3"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:09:54.851260 #15799]  INFO -- : Started GET "/funds" for 182.72.99.54 at 2016-11-27 19:09:54 -0500
+I, [2016-11-27T19:09:54.854406 #15799]  INFO -- : Processing by Private::FundsController#index as HTML
+I, [2016-11-27T19:09:54.861172 #15799]  INFO -- : Redirected to http://coinroots.com:3000/settings
+I, [2016-11-27T19:09:54.861274 #15799]  INFO -- : Filter chain halted as :auth_activated! rendered or redirected
+I, [2016-11-27T19:09:54.861378 #15799]  INFO -- : Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+I, [2016-11-27T19:10:02.743411 #15799]  INFO -- : Started GET "/settings" for 182.72.99.54 at 2016-11-27 19:10:02 -0500
+I, [2016-11-27T19:10:02.744275 #15799]  INFO -- : Processing by Private::SettingsController#index as HTML
+I, [2016-11-27T19:10:02.757740 #15799]  INFO -- :   Rendered private/settings/index.html.slim within layouts/application (6.8ms)
+I, [2016-11-27T19:10:02.760397 #15799]  INFO -- :   Rendered shared/_html5.html.slim (0.1ms)
+I, [2016-11-27T19:10:02.760815 #15799]  INFO -- :   Rendered shared/_meta.html.slim (0.3ms)
+I, [2016-11-27T19:10:02.761126 #15799]  INFO -- :   Rendered shared/_alert.html.slim (0.1ms)
+I, [2016-11-27T19:10:02.763469 #15799]  INFO -- :   Rendered shared/_header_profile_setting.html.slim (1.5ms)
+I, [2016-11-27T19:10:02.763705 #15799]  INFO -- :   Rendered shared/_header_lang_sel.html.slim (0.1ms)
+I, [2016-11-27T19:10:02.763772 #15799]  INFO -- :   Rendered shared/_header.html.slim (2.5ms)
+I, [2016-11-27T19:10:02.764185 #15799]  INFO -- :   Rendered shared/_flash.slim (0.0ms)
+I, [2016-11-27T19:10:02.764263 #15799]  INFO -- :   Rendered shared/_frame.html.slim (0.4ms)
+I, [2016-11-27T19:10:02.764407 #15799]  INFO -- :   Rendered shared/_footer.html.slim (0.0ms)
+I, [2016-11-27T19:10:02.764557 #15799]  INFO -- : Completed 200 OK in 20ms (Views: 12.6ms | ActiveRecord: 1.8ms)
+I, [2016-11-27T19:10:03.080852 #15799]  INFO -- : Started GET "/languages/en.png" for 182.72.99.54 at 2016-11-27 19:10:03 -0500
+F, [2016-11-27T19:10:03.081880 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/en.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:10:03.267581 #15799]  INFO -- : Started GET "/languages/ko.png" for 182.72.99.54 at 2016-11-27 19:10:03 -0500
+F, [2016-11-27T19:10:03.268675 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/ko.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:10:03.270133 #15799]  INFO -- : Started GET "/languages/zh-CN.png" for 182.72.99.54 at 2016-11-27 19:10:03 -0500
+F, [2016-11-27T19:10:03.271005 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/languages/zh-CN.png"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:12:13.715753 #15799]  INFO -- : Started PROPFIND "/webdav/" for 199.168.141.92 at 2016-11-27 19:12:13 -0500
+F, [2016-11-27T19:12:13.717515 #15799] FATAL -- : 
+ActionController::RoutingError (No route matches [PROPFIND] "/webdav"):
+  lib/middleware/security.rb:11:in `call'
+
+
+I, [2016-11-27T19:13:49.971335 #15799]  INFO -- : Started GET "/funds" for 182.72.99.54 at 2016-11-27 19:13:49 -0500
+I, [2016-11-27T19:13:49.979343 #15799]  INFO -- : Processing by Private::FundsController#index as HTML
+I, [2016-11-27T19:13:49.995789 #15799]  INFO -- : Redirected to http://coinroots.com:3000/settings
+I, [2016-11-27T19:13:49.995973 #15799]  INFO -- : Filter chain halted as :auth_activated! rendered or redirected
+I, [2016-11-27T19:13:49.996193 #15799]  INFO -- : Completed 302 Found in 17ms (ActiveRecord: 1.1ms)

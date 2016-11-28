@@ -1,1 +1,3 @@
 peatio:amqp:withdraw_coin: process with pid 14623 started.
+peatio:amqp:withdraw_coin: process with pid 17582 started.
+I, [2016-11-27T17:08:50.215337 #17582]  INFO -- : Connected to AMQP broker (prefetch: default)

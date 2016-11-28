@@ -40,7 +40,7 @@ en:
       deposit: Deposit
       withdraw: Withdraw
       currency_name:
-        cny: CNY
+        cny: INR
         btc: BTC
         acn: ACN
         opc: OPC
@@ -182,7 +182,7 @@ en:
     markets:
       market_list:
         all: All Market
-        cny: CNY Market
+        cny: INR Market
         btc: BTC Market
         acn: ACN Market
         opc: OPC Market

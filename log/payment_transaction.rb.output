@@ -27,3 +27,4 @@ payment_transaction.rb: process with pid 11921 started.
 	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
 	from lib/daemons/payment_transaction_ctl:6:in `<main>'
 payment_transaction.rb: process with pid 14445 started.
+payment_transaction.rb: process with pid 17431 started.

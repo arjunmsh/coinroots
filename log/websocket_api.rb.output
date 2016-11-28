@@ -1,2 +1,4 @@
 websocket_api.rb: process with pid 14524 started.
 I, [2016-11-20T06:12:52.507457 #14524]  INFO -- : Connected to AMQP broker.
+websocket_api.rb: process with pid 17573 started.
+I, [2016-11-27T17:08:49.841448 #17573]  INFO -- : Connected to AMQP broker.
